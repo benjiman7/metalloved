@@ -1,0 +1,48 @@
+@import "reset", "vars", "global", "mixins";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+
+//TODO: добавить логотип во вкладке
+
+.header {
+    .container-header {
+        margin: 0 auto;
+        padding: 0 10px;
+        background-color: #1C344E;
+    }
+
+    &__inner {
+        max-width: 1440px;
+    }
+
+    &__top {
+        // max-width: 1440px;
+        height: 42px;
+    }
+
+    &__info {
+        // @include font(400, 14, 18);
+        margin: auto;
+        width: fit-content;
+        padding: 12px 24px;
+        color: #FFF;
+        display: flex;
+    }
+
+    &__location-info {
+        display: flex;
+    }
+
+    &__phone-info {
+        display: flex;
+    }
+
+    &__email-info{
+        display: flex;
+    }
+
+    &__schedule-info {
+        display: flex;
+    }
+}

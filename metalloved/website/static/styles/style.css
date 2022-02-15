@@ -293,6 +293,7 @@ body {
   font-size: 24px;
   line-height: 31px;
   color: #333333;
+  padding-bottom: 8px;
 }
 
 .header__card-subtitle {
@@ -300,10 +301,29 @@ body {
   font-size: 18px;
   line-height: 26px;
   color: #666666;
+  text-align: center;
+  padding: 8px 42px 48px;
 }
 
-.header__main {
-  height: 20px;
-  margin-top: 1000px;
+.main .container-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 94px 0;
+}
+
+.main .about__photo {
+  width: 552px;
+  height: 568px;
+}
+
+.main .about__photo-img {
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

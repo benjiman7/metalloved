@@ -170,15 +170,33 @@
     &__card-title {
         @include font(500, 24px, 31px);
         color: #333333;
+        padding-bottom: 8px;
     }
 
     &__card-subtitle {
         @include font(400, 18px, 26px);
         color: #666666;
+        text-align: center;
+        padding: 8px 42px 48px;
+    }
+}
+
+.main {
+    .container-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 94px 0;
     }
 
-    &__main{
-        height: 20px;
-        margin-top: 1000px;
+    .about {
+        &__photo {
+            width: 552px;
+            height: 568px;
+        }
+
+        &__photo-img {
+            border-radius: 10px;
+        }
     }
 }

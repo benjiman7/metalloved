@@ -268,7 +268,7 @@ body {
   border-radius: 10px;
 }
 
-.header__card-logo {
+.header__card-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,6 +286,11 @@ body {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
+}
+
+.header__card-icon-img {
+  width: 40px;
+  height: 40px;
 }
 
 .header__card-title {
@@ -312,18 +317,88 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin: 94px 0;
 }
 
-.main .about__photo {
+.main .about__photo-img {
   width: 552px;
   height: 568px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
 }
 
-.main .about__photo-img {
-  border-radius: 10px;
+.main .about__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 120px;
+}
+
+.main .about__info-title {
+  color: #333333;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.main .about__info-title-line {
+  width: 74px;
+  height: 4px;
+  background: #4B93FF;
+  border-radius: 0px 5px;
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+
+.main .about__info-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666666;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 456px;
+  height: 104px;
+  margin-bottom: 24px;
+}
+
+.main .about__info-advantages-list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  margin-bottom: 74px;
+}
+
+.main .about__info-call-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .about__info-call-us-content {
+  margin-left: 24px;
+}
+
+.main .about__info-call-us-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 4px;
 }
 /*# sourceMappingURL=style.css.map */

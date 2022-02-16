@@ -260,5 +260,10 @@
             color: #333333;
             margin-bottom: 4px;
         }
+
+        &__info-call-us-phone {
+            @include font(600, 24px, 31px);
+            color: #4B93FF;
+        }
     }
 }

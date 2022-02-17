@@ -339,20 +339,30 @@ body {
   margin-left: 120px;
 }
 
-.main .about__info-title {
-  color: #333333;
+.main .about__title-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .about__title-content .about__title-item {
+  font-family: "IBM Plex Sans";
   font-weight: 600;
+  color: #333333;
   font-size: 34px;
   line-height: 44px;
 }
 
-.main .about__info-title-line {
+.main .about__title-content .about__title-line {
   width: 74px;
   height: 4px;
-  background: #4B93FF;
   border-radius: 0px 5px;
+  background: #4B93FF;
   margin-top: 10px;
-  margin-bottom: 36px;
 }
 
 .main .about__info-subtitle {
@@ -365,6 +375,7 @@ body {
           align-items: center;
   width: 456px;
   height: 104px;
+  margin-top: 36px;
   margin-bottom: 24px;
 }
 
@@ -382,6 +393,13 @@ body {
           flex-direction: column;
   gap: 16px;
   margin-bottom: 74px;
+}
+
+.main .about__info-advantages-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
 }
 
 .main .about__info-call-us {
@@ -407,5 +425,72 @@ body {
   font-size: 24px;
   line-height: 31px;
   color: #4B93FF;
+}
+
+.main .container-advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 94px 0;
+}
+
+.main .advantages__title-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .advantages__title-content .advantages__title-item {
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  color: #333333;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.main .advantages__title-content .advantages__title-line {
+  width: 74px;
+  height: 4px;
+  border-radius: 0px 5px;
+  background: #4B93FF;
+  margin-top: 10px;
+}
+
+.main .advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 46px;
+}
+
+.main .advantages__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 65px;
+}
+
+.main .advantages__list-item-icon {
+  width: 42px;
+  height: 42px;
+  margin-right: 16px;
+}
+
+.main .advantages__list-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */

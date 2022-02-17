@@ -91,7 +91,6 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        // height: 670px;
         background-image: url(../images/photos/header-bg.jpg);
     }
 
@@ -139,7 +138,6 @@
         display: flex;
         gap: 24px;
         position: relative;
-        // margin-top: 132px;
         justify-content: center;
     }
 
@@ -174,13 +172,13 @@
 
     &__card-title {
         @include font(500, 24px, 31px);
-        color: #333333;
+        color: $text-title;
         padding-bottom: 8px;
     }
 
     &__card-subtitle {
         @include font(400, 18px, 26px);
-        color: #666666;
+        color: $main-text;
         text-align: center;
         padding: 8px 42px 48px;
     }
@@ -191,7 +189,6 @@
         display: flex;
         justify-content: center;
         margin: 94px 0;
-        // width: 1128px;
     }
 
     .about {
@@ -209,42 +206,32 @@
             margin-left: 120px;
         }
 
-        &__info-title {
-            color: #333333;
-            font-weight: 600;
-            font-size: 34px;
-            line-height: 44px;
-        }
-
-        &__info-title-line {
-            width: 74px;
-            height: 4px;
-            background: #4B93FF;
-            border-radius: 0px 5px;
-            margin-top: 10px;
-            margin-bottom: 36px;
+        &__title-content {
+            @include title-block(about)
         }
 
         &__info-subtitle {
             @include font(400, 18px, 26px);
-            color: #666666;
+            color: $main-text;
             align-items: center;
             width: 456px;
             height: 104px;
+            margin-top: 36px;
             margin-bottom: 24px;
         }
 
         &__info-advantages-list {
             @include font(400, 18px, 26px);
-            color: #666666;
+            color: $main-text;
             display: flex;
             flex-direction: column;
             gap: 16px;
             margin-bottom: 74px;
+        }
 
-            // &::before {
-            //     content: ;
-            // }
+        &__info-advantages-item {
+            display: flex;
+            gap: 10px;
         }
 
         &__info-call-us {
@@ -257,13 +244,46 @@
 
         &__info-call-us-title {
             @include font(500, 18px, 23px);
-            color: #333333;
+            color: $text-title;
             margin-bottom: 4px;
         }
 
         &__info-call-us-phone {
             @include font(600, 24px, 31px);
             color: #4B93FF;
+        }
+    }
+
+    .container-advantages {
+        display: flex;
+        flex-direction: column;
+        margin: 94px 0;
+    }
+
+    .advantages {
+        &__title-content {
+            @include title-block(advantages)
+        }
+
+        &__list {
+            display: flex;
+            margin-top: 46px;
+        }
+
+        &__list-item {
+            display: flex;
+            margin-right: 65px;
+        }
+
+        &__list-item-icon {
+            width: 42px;
+            height: 42px;
+            margin-right: 16px;
+        }
+
+        &__list-item-content {
+            display: flex;
+            flex-direction: column;
         }
     }
 }

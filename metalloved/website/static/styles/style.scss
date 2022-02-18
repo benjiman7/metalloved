@@ -76,15 +76,18 @@
 
     &__navbar-button {
         @include font(500, 16px, 21px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 130px;
         height: 45px;
-        border: 1px solid #4B93FF;
+        border: 1px solid $accent;
         padding: 12px 18px;
         box-sizing: border-box;
         border-radius: 12px;
         cursor: pointer;
         background-color: transparent;
-        color: #4B93FF;
+        color: $accent;
     }
 
     &__main-content-bg {
@@ -122,14 +125,17 @@
 
     &__main-content-button {
         @include font(400, 18px, 23px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 178px;
         height: 47px;
         padding: 12px 20px;
         box-sizing: border-box;
         border-radius: 12px;
         cursor: pointer;
-        background-color: #4B93FF;
-        border: 1px solid #4B93FF;
+        background-color: $accent;
+        border: 1px solid $accent;
         color: #FFFFFF;
     }
 
@@ -250,40 +256,153 @@
 
         &__info-call-us-phone {
             @include font(600, 24px, 31px);
-            color: #4B93FF;
+            color: $accent;
         }
     }
 
     .container-advantages {
-        display: flex;
-        flex-direction: column;
-        margin: 94px 0;
+        margin: 94px auto;
+        background-color: #F8F9FA;
     }
 
     .advantages {
+        &__content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 1128px;
+            margin: 0 auto;
+        }
+
         &__title-content {
-            @include title-block(advantages)
+            @include title-block(advantages);
+            padding-top: 24px;
         }
 
         &__list {
             display: flex;
-            margin-top: 46px;
+            flex-wrap: wrap;
+            padding-top: 46px;
         }
 
         &__list-item {
             display: flex;
-            margin-right: 65px;
+            margin-right: 52px;
+            margin-bottom: 60px;
+        }
+
+        &__list-item-border {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 16px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
         }
 
         &__list-item-icon {
             width: 42px;
             height: 42px;
-            margin-right: 16px;
         }
 
         &__list-item-content {
             display: flex;
             flex-direction: column;
+            width: 416px;
+        }
+
+        &__list-item-title {
+            @include font(500, 18px, 23px);
+            color: $text-title;
+            padding-bottom: 8px;
+        }
+
+        &__list-item-description {
+            @include font(400, 16px, 26px);
+            color: $main-text;
+        }
+    }
+
+    .container-services {
+        display: flex;
+        margin: 94px 0;
+    }
+
+    .services {
+        &__content {
+            display: flex;
+            // justify-content: center;
+            flex-direction: column;
+            // width: 1128px;
+            margin: 0 auto;
+        }
+
+        &__title-content {
+            @include title-block(services);
+            padding-bottom: 48px;
+        }
+
+        &__list-item {
+            display: flex;
+            flex-direction: column;
+            width: 360px;
+            border: 2px solid #F2F2F3;
+            border-radius: 12px;
+            box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
+        }
+
+        &__list-item-img {
+            border-radius: 12px 12px 0 0;
+        }
+
+        //add auto-padding after item-content (probably using if)
+        &__list-item-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__list-item-title {
+            @include font(500, 18px, 23px);
+            margin: 24px auto 4px 36px;
+            color: $text-title;
+            width: 285px;
+        }
+
+        &__list-item-subtitle {
+            @include font(400, 14px, 18px);
+            margin: 4px auto 19px 36px;
+            color: $main-text;
+            width: 285px;
+        }
+
+        &__list-item-order {
+            display: flex;
+            align-items: center;
+            gap: 92px;
+            margin: 18px auto 36px 36px;
+        }
+
+        &__list-item-price {
+            @include font(500, 18px, 23px);
+        }
+
+        &__list-item-button {
+            @include font(500, 18px, 23px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 134px;
+            height: 47px;
+            border: 2px solid $accent;
+            padding: 12px 28px;
+            box-sizing: border-box;
+            border-radius: 12px;
+            cursor: pointer;
+            background-color: transparent;
+            color: $accent;
         }
     }
 }

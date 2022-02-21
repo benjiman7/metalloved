@@ -488,7 +488,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 24px 0 46px;
+  padding: 24px 0 36px;
 }
 
 .main .advantages__title-content .advantages__title-item {
@@ -600,7 +600,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 1128px;
-  padding-bottom: 48px;
+  padding-bottom: 36px;
 }
 
 .main .services__title-content .services__title-item {
@@ -663,15 +663,16 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-  margin: 24px 36px 4px 36px;
+  margin: 24px 36px 8px 36px;
   color: #333333;
+  height: 46px;
 }
 
 .main .services__list-item-subtitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  margin: 4px 36px 19px 36px;
+  margin: 8px 36px 19px 36px;
   color: #666666;
 }
 

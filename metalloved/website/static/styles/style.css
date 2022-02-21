@@ -488,7 +488,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 24px;
+  padding: 24px 0 46px;
 }
 
 .main .advantages__title-content .advantages__title-item {
@@ -513,7 +513,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 46px;
 }
 
 .main .advantages__list-item {
@@ -716,5 +715,92 @@ body {
   cursor: pointer;
   background-color: transparent;
   color: #4B93FF;
+}
+
+.main .container-equipment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 94px 0;
+  background-color: #F8F9FA;
+}
+
+.main .equipment__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.main .equipment__title-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1128px;
+  padding: 24px 0 36px;
+}
+
+.main .equipment__title-content .equipment__title-item {
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  color: #333333;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.main .equipment__title-content .equipment__title-line {
+  width: 74px;
+  height: 4px;
+  border-radius: 0px 5px;
+  background: #4B93FF;
+  margin-top: 10px;
+}
+
+.main .equipment__list {
+  padding-bottom: 8px;
+}
+
+.main .equipment__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1128px;
+  height: 62px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.main .equipment__list-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  padding-left: 36px;
+}
+
+.main .equipment__list-item-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #4B93FF;
+  padding-right: 30px;
 }
 /*# sourceMappingURL=style.css.map */

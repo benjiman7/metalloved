@@ -87,10 +87,15 @@
         border: 1px solid $accent;
         padding: 12px 18px;
         box-sizing: border-box;
-        border-radius: 12px;
+        border-radius: 24px;
         cursor: pointer;
         background-color: transparent;
         color: $accent;
+
+        &:hover {
+            background-color: $accent;
+            color: $white-text;
+        }
     }
 
     &__main-content-bg {
@@ -135,15 +140,21 @@
         height: 47px;
         padding: 12px 20px;
         box-sizing: border-box;
-        border-radius: 12px;
+        border-radius: 24px;
         cursor: pointer;
-        background-color: $accent;
-        border: 1px solid $accent;
+        background-color: $second-accent;
+        border: 1px solid $second-accent;
         color: #FFFFFF;
+
+        &:hover {
+            background-color: #DF7400;
+            border: 1px solid #DF7400;
+        }
     }
 
     &__card-list {
         display: flex;
+        margin-top: -160px;
         gap: 24px;
         position: relative;
         justify-content: center;
@@ -164,11 +175,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 48px;
-        margin-bottom: 24px;
+        margin-top: 30px;
+        margin-bottom: 26px;
         border-radius: 50%;
-        width: 80px;
-        height: 80px;
+        width: 96px;
+        height: 96px;
         background: #FFFFFF;
         box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
     }
@@ -360,7 +371,6 @@
             display: flex;
             flex-direction: column;
             width: 360px;
-            height: 523px;
             border: 2px solid #F2F2F3;
             border-radius: 12px;
             box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
@@ -378,22 +388,23 @@
         }
 
         &__list-item-title {
-            @include font(500, 18px, 23px);
-            margin: 24px 36px 8px 36px;
+            @include font(500, 20px, 23px);
+            margin: 24px 36px 16px 36px;
             color: $text-title;
             height: 46px;
         }
 
         &__list-item-subtitle {
-            @include font(400, 14px, 18px);
-            margin: 8px 36px 19px 36px;
+            @include font(400, 16px, 18px);
+            margin: 0px 36px 20px 36px;
             color: $main-text;
+            height: 54px;
         }
 
         &__list-item-order {
             display: flex;
             align-items: center;
-            margin: 18px 36px 36px 36px;
+            margin: 0px 36px 32px 36px;
         }
 
         &__list-item-price {
@@ -411,10 +422,15 @@
             border: 2px solid $accent;
             padding: 12px 28px;
             box-sizing: border-box;
-            border-radius: 12px;
+            border-radius: 24px;
             cursor: pointer;
             background-color: transparent;
             color: $accent;
+
+            &:hover {
+                background-color: $accent;
+                color: $white-text;
+            }
         }
     }
 
@@ -467,5 +483,273 @@
             color: $accent;
             padding-right: 30px;
         }
+    }
+
+    .container-workflow {
+        margin: 94px auto;
+    }
+
+    .workflow {
+        &__content {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 1128px;
+        }
+
+        &__title-content {
+            @include title-block(workflow);
+            width: 1128px;
+            align-items: center;
+            padding-bottom: 36px;
+        }
+
+        &__steps-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__steps-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 256px;
+        }
+
+        &__steps-item-logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            border: 2px solid #007BFF;
+            box-sizing: border-box;
+            margin-bottom: 24px;
+        }
+
+        &__steps-item-logo-stage {
+            @include font(400, 26px, 34px);
+            color: #007BFF;
+        }
+
+        &__steps-item-title {
+            @include font(500, 20px, 26px);
+            color: $text-title;
+            margin-bottom: 6px;
+            text-align: center;
+        }
+
+        &__steps-item-description {
+            @include font(400, 16px, 21px);
+            color: $main-text;
+            text-align: center;
+            height: 42px;
+        }
+    }
+
+    .container-order {
+        margin: 94px auto 0px auto;
+        background-color: #F8F9FA;
+    }
+
+    .order {
+        &__content {
+            margin: 0 auto;
+            width: 1128px;
+        }
+
+        &__title-content {
+            @include title-block(order);
+            padding: 24px 0px 36px 0px;
+        }
+
+        &__info-list-item {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 32px;
+        }
+
+        &__info-content {
+            display: flex;
+            gap: 168px;
+            padding-bottom: 64px;
+        }
+
+        &__info-list-item-title {
+            @include font(500, 20px, 23px);
+            color: $text-title;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        &__info-list-item-content {
+            @include font(400, 18px, 21px);
+            color: $text-title;
+            padding-top: 10px;
+            padding-bottom: 4px;
+            width: 384px;
+        }
+
+        &__info-list-item-text-map {
+            @include font(400, 15px, 18px);
+            color: #888692;
+            text-decoration-line: underline;
+        }
+
+        &__info-list-item-text {
+            @include font(400, 15px, 18px);
+            color: #888692;
+        }
+
+        &__form-bg {
+            margin-top: -36px;
+            width: 540px;
+            height: 527px;  
+            background: #FFFFFF;
+            box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
+            border-radius: 12px;
+        }
+    }
+}
+
+.footer {
+    background-color: $footer-bg;
+
+    .container-footer {
+        margin: 0px auto;
+        width: 1128px;
+    }
+
+    &__content {
+        display: flex;
+        gap: 124px;
+    }
+
+    &__description-area {
+        display: flex;
+        flex-direction: column;
+        width: 440px;
+    }
+
+    &__description-area-logo {
+        padding-top: 56px;
+    }
+    
+    &__description-area-text {
+        @include font(400, 16px, 26px);
+        color: $footer-main;
+        padding: 14px 0px 22px 0px;
+    }
+    
+    &__description-area-address-title {
+        @include font(400, 16px, 26px);
+        color: $footer-main;
+    }
+
+    &__description-area-address-content {
+        @include font(500, 18px, 23px);
+        color: $white-text;
+        padding-bottom: 72px;
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        width: 268px;
+    }
+
+    &__contacts-title-item {
+        @include font(600, 22px, 29px);
+        color: $white-text;
+        padding-top: 56px;
+    }
+
+    &__contacts-title-line {
+        width: 40px;
+        height: 2px;
+        border-radius: 0px 5px;
+        background: $accent;
+        margin: 6px 0px 24px 0px;
+    }
+
+    &__phone-title {
+        @include font(400, 16px, 26px);
+        color: $footer-main;
+    }
+
+    &__phone-content {
+        @include font(500, 18px, 23px);
+        color: $white-text;
+        padding-bottom: 26px;
+    }
+
+    &__email-title {
+        @include font(400, 16px, 26px);
+        color: $footer-main;
+    }
+
+    &__email-content {
+        @include font(500, 18px, 23px);
+        color: $white-text;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        width: 128px;
+    }
+
+    &__menu-title-item {
+        @include font(600, 22px, 29px);
+        color: $white-text;
+        padding-top: 56px;
+    }
+
+    &__menu-title-line {
+        width: 40px;
+        height: 2px;
+        border-radius: 0px 5px;
+        background: $accent;
+        margin: 6px 0px 24px 0px;
+    }
+
+    &__menu-item {
+        padding-bottom: 20px;
+    }
+
+    &__menu-link {
+        @include font(400, 16px, 21px);
+        color: $footer-main;
+        padding-left: 4px;
+    }
+
+    &__copyright-bg {
+        margin: 72px auto 0px auto;
+    }
+
+    &__copyright {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 0px 16px 0px;
+    }
+
+    &__copyright-social {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__copyright-title {
+        @include font(300, 14px, 18px);
+        color: $white-text;
+    }
+
+    &__copyright-social-title {
+        @include font(300, 14px, 18px);
+        color: $white-text;
     }
 }

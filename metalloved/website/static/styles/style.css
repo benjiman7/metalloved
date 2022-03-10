@@ -56,6 +56,11 @@ a {
   color: inherit;
 }
 
+input, textarea {
+  outline: none;
+  border: none;
+}
+
 * {
   font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -200,6 +205,8 @@ body {
 }
 
 .header__navbar-button:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   background-color: #4B93FF;
   color: #FFFFFF;
 }
@@ -249,7 +256,7 @@ body {
 }
 
 .header__main-content-button {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 23px;
   display: -webkit-box;
@@ -261,9 +268,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 178px;
+  width: 196px;
   height: 47px;
-  padding: 12px 20px;
+  padding: 12px 28px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 24px;
@@ -274,8 +281,11 @@ body {
 }
 
 .header__main-content-button:hover {
-  background-color: #DF7400;
-  border: 1px solid #DF7400;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #FF8400;
 }
 
 .header__card-list {
@@ -731,6 +741,8 @@ body {
 }
 
 .main .services__list-item-button:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   background-color: #4B93FF;
   color: #FFFFFF;
 }
@@ -989,7 +1001,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 168px;
-  padding-bottom: 64px;
+  padding-bottom: 94px;
 }
 
 .main .order__info-list-item-title {
@@ -1032,10 +1044,103 @@ body {
   color: #888692;
 }
 
-.main .order__form-bg {
+.main .order__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .order__form-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: #333333;
+  padding-top: 42px;
+  padding-bottom: 36px;
+}
+
+.main .order__form-name {
+  width: 432px;
+  height: 46px;
+  border: 1px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.main .order__form-name-input {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #999999;
+  padding: 14px auto 24px;
+}
+
+.main .order__form-contact {
+  width: 432px;
+  height: 46px;
+  border: 1px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.main .order__form-message {
+  width: 432px;
+  height: 122px;
+  border: 1px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 48px;
+}
+
+.main .order__form-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 196px;
+  height: 52px;
+  padding: 12px 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: #FF8400;
+  border: 1px solid #FF8400;
+  color: #FFFFFF;
+}
+
+.main .order__form-button:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #df7400;
+  border: 1px solid #df7400;
+  color: #FFFFFF;
+}
+
+.main .container-form {
   margin-top: -36px;
   width: 540px;
-  height: 527px;
+  height: 505px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);

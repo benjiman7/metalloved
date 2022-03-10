@@ -404,15 +404,20 @@
                                     <p class="order__info-list-item-text">Сб, Вс - выходной</p>
                                 </div>
                             </div>
-                            <div class="order__form">
-                                <div class="order__form-bg">
-                                    <form>
-                                        <h1 class="order__form-title">Оставьте заявку</h1>
-                                        <input type="text" placeholder="Имя">
-                                        <input type="text" placeholder="Как с Вами связаться">
-                                        <textarea placeholder="Комментарий" rows="10"></textarea>
-                                    </form>
-                                </div>
+                            <div class="container-form">
+                                <form class="order__form">
+                                    <h1 class="order__form-title">Оставьте заявку</h1>
+                                    <div class="order__form-name">
+                                        <input class="order__form-name-input" type="text" name="name" placeholder="Имя">
+                                    </div>
+                                    <div class="order__form-contact">
+                                        <input class="order__form-contact-input" type="text" name="email" placeholder="Как с Вами связаться">
+                                    </div>
+                                    <div class="order__form-message">
+                                        <textarea class="order__form-message-input" type="text" name="name" placeholder="Комментарий"></textarea>
+                                    </div>
+                                    <button class="order__form-button">Отправить</button>
+                                </form>
                             </div>
                         </div>
                     </div>

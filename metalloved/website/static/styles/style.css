@@ -116,7 +116,7 @@ body {
   gap: 8px;
 }
 
-.header__phone-info {
+.header__phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,7 +126,7 @@ body {
   gap: 8px;
 }
 
-.header__email-info {
+.header__email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,7 +136,7 @@ body {
   gap: 8px;
 }
 
-.header__schedule-info {
+.header__schedule {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -948,6 +948,10 @@ body {
   height: 42px;
 }
 
+.main .workflow__steps-divider {
+  margin-bottom: 100px;
+}
+
 .main .container-order {
   margin: 94px auto 0px auto;
   background-color: #F8F9FA;
@@ -1239,6 +1243,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
+  display: block;
   color: #FFFFFF;
   padding-bottom: 26px;
 }

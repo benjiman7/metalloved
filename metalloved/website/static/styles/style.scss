@@ -36,19 +36,19 @@
         gap: 8px;
     }
 
-    &__phone-info {
+    &__phone {
         display: flex;
         align-items: center;
         gap: 8px;
     }
 
-    &__email-info{
+    &__email {
         display: flex;
         align-items: center;
         gap: 8px;
     }
 
-    &__schedule-info {
+    &__schedule {
         display: flex;
         align-items: center;
         gap: 8px;
@@ -551,6 +551,10 @@
             text-align: center;
             height: 42px;
         }
+
+        &__steps-divider {
+            margin-bottom: 100px;
+        }
     }
 
     .container-order {
@@ -755,6 +759,7 @@
 
     &__phone-content {
         @include font(500, 18px, 23px);
+        display: block;
         color: $white-text;
         padding-bottom: 26px;
     }

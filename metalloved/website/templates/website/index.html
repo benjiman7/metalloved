@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -6,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Экспертная лаборатория</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../../static/styles/style.css">
+    <!-- <link rel="icon" type="image/png" href="{%  static '/website/img/favicon.ico' %}"> -->
 </head>
 
 <body>
@@ -51,7 +54,7 @@
                             <div class="header__navbar">
                                 <div class="header__navbar-logo">
                                     <a href="#" class="header__navbar-logo">
-                                        <img class="header__navbar-logo-img" src="./images/icons/logo.svg" alt="Logo">
+                                        <img class="header__navbar-logo-img" src="../../static/images/icons/logo.svg" alt="Logo">
                                     </a>
                                 </div>
                                 <nav class="header__navbar-menu">
@@ -95,21 +98,21 @@
                             <div class="header__card-list">
                                 <div class="header__card-item">
                                     <div class="header__card-icon">
-                                        <img class="header__card-icon-img" src="./images/icons/microscope.svg" alt="Microscope icon">
+                                        <img class="header__card-icon-img" src="../../static/images/icons/microscope.svg" alt="Microscope icon">
                                     </div>
                                     <h1 class="header__card-title">Металлография</h1>
                                     <h2 class="header__card-subtitle">Микроструктура металла, определение несовершенств структуры</h2>
                                 </div>
                                 <div class="header__card-item">
                                     <div class="header__card-icon">
-                                        <img class="header__card-icon-img" src="./images/icons/chemistry-structure.svg" alt="Chemistry structure icon">
+                                        <img class="header__card-icon-img" src="../../static/images/icons/chemistry-structure.svg" alt="Chemistry structure icon">
                                     </div>
                                     <h1 class="header__card-title">Химический анализ</h1>
                                     <h2 class="header__card-subtitle">Определение элементного состава металлов и их сплавов, а также чугунов</h2>
                                 </div>
                                 <div class="header__card-item">
                                     <div class="header__card-icon">
-                                        <img class="header__card-icon-img" src="./images/icons/robot.svg" alt="Robot icon">
+                                        <img class="header__card-icon-img" src="../../static/images/icons/robot.svg" alt="Robot icon">
                                     </div>
                                     <h1 class="header__card-title">Механические испытания</h1>
                                     <h2 class="header__card-subtitle">Определение механических свойств материалов и изделий различными способами</h2>
@@ -125,7 +128,7 @@
                 <div class="container-about">
                     <div class="about__content">
                         <div class="about__photo">
-                            <img class="about__photo-img" src="./images/photos/about.jpg" alt="Our photo">
+                            <img class="about__photo-img" src="../../static/images/photos/about.jpg" alt="Our photo">
                         </div>
                         <div class="about__info">
                             <div class="about__title-content">
@@ -185,7 +188,7 @@
                         <div class="advantages__list">
                             <div class="advantages__list-item">
                                 <div class="advantages__list-item-border">
-                                    <img class="advantages__list-item-icon" src="./images/icons/fast-time.svg" alt="Fast time">
+                                    <img class="advantages__list-item-icon" src="../../static/images/icons/fast-time.svg" alt="Fast time">
                                 </div>
                                 <div class="advantages__list-item-content">
                                     <h2 class="advantages__list-item-title">Быстрые сроки</h2>
@@ -194,7 +197,7 @@
                             </div>
                             <div class="advantages__list-item">
                                 <div class="advantages__list-item-border">
-                                    <img class="advantages__list-item-icon" src="./images/icons/wallet.svg" alt="Wallet">
+                                    <img class="advantages__list-item-icon" src="../../static/images/icons/wallet.svg" alt="Wallet">
                                 </div>
                                 <div class="advantages__list-item-content">
                                     <h2 class="advantages__list-item-title">Низкая цена</h2>
@@ -203,7 +206,7 @@
                             </div>
                             <div class="advantages__list-item">
                                 <div class="advantages__list-item-border">
-                                    <img class="advantages__list-item-icon" src="./images/icons/equipment.svg" alt="Equipment">
+                                    <img class="advantages__list-item-icon" src="../../static/images/icons/equipment.svg" alt="Equipment">
                                 </div>
                                 <div class="advantages__list-item-content">
                                     <h2 class="advantages__list-item-title">Современное оборудование</h2>
@@ -212,7 +215,7 @@
                             </div>
                             <div class="advantages__list-item">
                                 <div class="advantages__list-item-border">
-                                    <img class="advantages__list-item-icon" src="./images/icons/operator.svg" alt="Operator">
+                                    <img class="advantages__list-item-icon" src="../../static/images/icons/operator.svg" alt="Operator">
                                 </div>
                                 <div class="advantages__list-item-content">
                                     <h2 class="advantages__list-item-title">Бесплатная консультация</h2>
@@ -232,7 +235,7 @@
                         </div>
                         <div class="services__list">
                             <div class="services__list-item">
-                                <img class="services__list-item-img" src="./images/photos/corrosion.jpg" alt="Metall corrosion">
+                                <img class="services__list-item-img" src="../../static/images/photos/corrosion.jpg" alt="Metall corrosion">
                                 <div class="services__list-item-content">
                                     <h1 class="services__list-item-title">Определение причин коррозии изделия</h1>
                                     <p class="services__list-item-subtitle">Комплексный анализ с целью определения причин коррозии</p>
@@ -243,7 +246,7 @@
                                 </div>
                             </div>
                             <div class="services__list-item">
-                                <img class="services__list-item-img" src="./images/photos/destruction.jpg" alt="Metall corrosion">
+                                <img class="services__list-item-img" src="../../static/images/photos/destruction.jpg" alt="Metall corrosion">
                                 <div class="services__list-item-content">
                                     <h1 class="services__list-item-title">Определение причин разрушения изделия</h1>
                                     <p class="services__list-item-subtitle">Комплексное исследование с целью установки причин разрушения материала</p>
@@ -254,7 +257,7 @@
                                 </div>
                             </div>
                             <div class="services__list-item">
-                                <img class="services__list-item-img" src="./images/photos/fractography.jpg" alt="Metall corrosion">
+                                <img class="services__list-item-img" src="../../static/images/photos/fractography.jpg" alt="Metall corrosion">
                                 <div class="services__list-item-content">
                                     <h1 class="services__list-item-title">Фрактография изломов</h1>
                                     <p class="services__list-item-subtitle">Полное описание характера и механизма разрушения</p>
@@ -432,7 +435,7 @@
                     <div class="footer__description-area">
                         <div class="footer__description-area-logo">
                             <a href="#" class="footer__description-area-logo">
-                                <img class="footer__description-area-logo-img" src="./images/icons/footer-logo.svg" alt="Logo">
+                                <img class="footer__description-area-logo-img" src="../../static/images/icons/footer-logo.svg" alt="Logo">
                             </a>
                         </div>
                         <p class="footer__description-area-text">Мы экспертная металловедческая лаборатория. Таким образом, современная методология разработки не даёт нам иного выбора, кроме определения.</p>

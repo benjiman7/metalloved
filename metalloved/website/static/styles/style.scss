@@ -367,6 +367,7 @@
 
         &__list {
             display: flex;
+            flex-wrap: wrap;
             gap: 24px;
         }
 
@@ -625,37 +626,19 @@
             padding-bottom: 36px;
         }
 
-        &__form-name {
-            width: 432px;
-            height: 46px;
-            border: 1px solid #C4C4C4;
-            box-sizing: border-box;
-            border-radius: 5px;
-            margin-bottom: 16px;
-        }
-
-        &__form-name-input {
+        &__form-input {
             @include font(500, 16px, 21px);
-            color: $gray-text;
-            padding: 14px auto 24px;
-        }
-
-        &__form-contact {
             width: 432px;
-            height: 46px;
+            height: 49px;
             border: 1px solid #C4C4C4;
-            box-sizing: border-box;
             border-radius: 5px;
             margin-bottom: 16px;
-        }
 
-        &__form-message {
-            width: 432px;
-            height: 122px;
-            border: 1px solid #C4C4C4;
-            box-sizing: border-box;
-            border-radius: 5px;
-            margin-bottom: 48px;
+            ::placeholder {
+                border: 0;           
+                padding: 0;
+                color: $gray-text;
+            }
         }
 
         &__form-button {
@@ -672,6 +655,7 @@
             background-color: $second-accent;
             border: 1px solid $second-accent;
             color: #FFFFFF;
+            margin-top: 48px;
     
             &:hover {
                 transition: all 0.3s ease 0s;
@@ -801,7 +785,6 @@
     &__menu-link {
         @include font(400, 16px, 21px);
         color: $gray-text;
-        padding-left: 4px;
     }
 
     &__copyright-bg {

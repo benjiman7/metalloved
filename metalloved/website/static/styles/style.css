@@ -56,11 +56,6 @@ a {
   color: inherit;
 }
 
-input, textarea {
-  outline: none;
-  border: none;
-}
-
 * {
   font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -647,6 +642,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -1070,42 +1067,39 @@ body {
   padding-bottom: 36px;
 }
 
-.main .order__form-name {
-  width: 432px;
-  height: 46px;
-  border: 1px solid #C4C4C4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 5px;
-  margin-bottom: 16px;
-}
-
-.main .order__form-name-input {
+.main .order__form-input {
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  color: #999999;
-  padding: 14px auto 24px;
-}
-
-.main .order__form-contact {
   width: 432px;
-  height: 46px;
+  height: 49px;
   border: 1px solid #C4C4C4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   border-radius: 5px;
   margin-bottom: 16px;
 }
 
-.main .order__form-message {
-  width: 432px;
-  height: 122px;
-  border: 1px solid #C4C4C4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 5px;
-  margin-bottom: 48px;
+.main .order__form-input ::-webkit-input-placeholder {
+  border: 0;
+  padding: 0;
+  color: #999999;
+}
+
+.main .order__form-input :-ms-input-placeholder {
+  border: 0;
+  padding: 0;
+  color: #999999;
+}
+
+.main .order__form-input ::-ms-input-placeholder {
+  border: 0;
+  padding: 0;
+  color: #999999;
+}
+
+.main .order__form-input ::placeholder {
+  border: 0;
+  padding: 0;
+  color: #999999;
 }
 
 .main .order__form-button {
@@ -1131,6 +1125,7 @@ body {
   background-color: #FF8400;
   border: 1px solid #FF8400;
   color: #FFFFFF;
+  margin-top: 48px;
 }
 
 .main .order__form-button:hover {
@@ -1298,7 +1293,6 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #999999;
-  padding-left: 4px;
 }
 
 .footer__copyright-bg {

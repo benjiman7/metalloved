@@ -234,72 +234,19 @@
                             <div class="services__title-line"></div>
                         </div>
                         <div class="services__list">
+                            {% for card in cards %}
                             <div class="services__list-item">
-                                <img class="services__list-item-img" src="../../static/images/photos/no-image.png" alt="">
+                                <img class="services__list-item-img" src="../../static/images/photos/no-image.png" alt="Card">
                                 <div class="services__list-item-content">
-                                    <h1 class="services__list-item-title">Название</h1>
-                                    <p class="services__list-item-subtitle">Описание</p>
+                                    <h1 class="services__list-item-title">{{ card.title }}</h1>
+                                    <p class="services__list-item-subtitle">{{ card.description }}</p>
                                     <div class="services__list-item-order">
-                                        <p class="services__list-item-price">5000 ₽</p>
+                                        <p class="services__list-item-price">{{ card.price }}</p>
                                         <button class="services__list-item-button">Заказать</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="services__list-item">
-                                <img class="services__list-item-img" src="../../static/images/photos/no-image.png" alt="">
-                                <div class="services__list-item-content">
-                                    <h1 class="services__list-item-title">Название</h1>
-                                    <p class="services__list-item-subtitle">Описание</p>
-                                    <div class="services__list-item-order">
-                                        <p class="services__list-item-price">5000 ₽</p>
-                                        <button class="services__list-item-button">Заказать</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__list-item">
-                                <img class="services__list-item-img" src="../../static/images/photos/no-image.png" alt="">
-                                <div class="services__list-item-content">
-                                    <h1 class="services__list-item-title">Название</h1>
-                                    <p class="services__list-item-subtitle">Описание</p>
-                                    <div class="services__list-item-order">
-                                        <p class="services__list-item-price">5000 ₽</p>
-                                        <button class="services__list-item-button">Заказать</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__list-item">
-                                <img class="services__list-item-img" src="../../static/images/photos/corrosion.jpg" alt="Metall corrosion">
-                                <div class="services__list-item-content">
-                                    <h1 class="services__list-item-title">Определение причин коррозии изделия</h1>
-                                    <p class="services__list-item-subtitle">Комплексный анализ с целью определения причин коррозии</p>
-                                    <div class="services__list-item-order">
-                                        <p class="services__list-item-price">5000 ₽</p>
-                                        <button class="services__list-item-button">Заказать</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__list-item">
-                                <img class="services__list-item-img" src="../../static/images/photos/destruction.jpg" alt="Metall corrosion">
-                                <div class="services__list-item-content">
-                                    <h1 class="services__list-item-title">Определение причин разрушения изделия</h1>
-                                    <p class="services__list-item-subtitle">Комплексное исследование с целью установки причин разрушения материала</p>
-                                    <div class="services__list-item-order">
-                                        <p class="services__list-item-price">Договорная</p>
-                                        <button class="services__list-item-button">Заказать</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="services__list-item">
-                                <img class="services__list-item-img" src="../../static/images/photos/fractography.jpg" alt="Metall corrosion">
-                                <div class="services__list-item-content">
-                                    <h1 class="services__list-item-title">Фрактография изломов</h1>
-                                    <p class="services__list-item-subtitle">Полное описание характера и механизма разрушения</p>
-                                    <div class="services__list-item-order">
-                                        <p class="services__list-item-price">10 000 ₽</p>
-                                        <button class="services__list-item-button">Заказать</button>
-                                    </div>
-                                </div>
-                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>

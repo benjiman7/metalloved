@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .models import Card
 
 
 def home_page(request):
-    return render(request, 'website/index.html')
+    cards = Card.objects.all()
+    return render(request, 'website/index.html', {'cards': cards})

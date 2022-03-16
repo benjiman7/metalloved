@@ -236,7 +236,7 @@
                         <div class="services__list">
                             {% for card in cards %}
                             <div class="services__list-item">
-                                <img class="services__list-item-img" src="../static/images/photos/default.svg" alt="Card">
+                                <img class="services__list-item-img" src="{{ card.image.url }}" alt="Card">
                                 <div class="services__list-item-content">
                                     <h1 class="services__list-item-title">{{ card.title }}</h1>
                                     <p class="services__list-item-subtitle">{{ card.description }}</p>

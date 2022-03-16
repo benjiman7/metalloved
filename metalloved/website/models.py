@@ -7,8 +7,8 @@ from django.db import models
 class Card(models.Model):
     title = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
-    # photo = models.ImageField(upload_to='static/images/photos/')
-    price = models.IntegerField()
+    image = models.ImageField(blank=True, default='default.svg')
+    price = models.CharField(max_length=255)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 

@@ -1,3 +1,5 @@
+from atexit import register
+from turtle import title
 from django.db import models
 
 
@@ -15,6 +17,14 @@ class Card(models.Model):
     def __str__(self):
         return self.title
 
+    def is_price (request):
+        cards = request
+        card_price = cards.price
+
+        if isinstance(card_price, str):
+            return f"{card_price} + '₽' "
+        else:
+            return f"{card_price}"
 
 class ContactForm(models.Model):
     pass

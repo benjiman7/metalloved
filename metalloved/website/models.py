@@ -15,16 +15,8 @@ class Card(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.title
+        return f"{self.title, self.price}"
 
-    def is_price (request):
-        cards = request
-        card_price = cards.price
-
-        if isinstance(card_price, str):
-            return f"{card_price} + '₽' "
-        else:
-            return f"{card_price}"
 
 class ContactForm(models.Model):
     pass

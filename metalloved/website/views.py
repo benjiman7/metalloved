@@ -11,4 +11,4 @@ def home_page(request):
             new_card_price = f"{price} + '₽' "
             print(new_card_price)
 
-    return render(request, 'website/index.html', {'cards': cards}, {'new_price': price})
+    return render(request, 'website/index.html', {'cards': cards})

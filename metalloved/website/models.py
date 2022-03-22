@@ -15,7 +15,7 @@ class Card(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"{self.title, self.price}"
+        return f"{self.title}"
 
 
 class ContactForm(models.Model):

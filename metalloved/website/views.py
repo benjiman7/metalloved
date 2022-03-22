@@ -7,8 +7,8 @@ def home_page(request):
     prices = Card.objects.values('price')
     for price in prices:
         print(price)
-        if isinstance(price, dict):
-            new_card_price = f"{price} + '₽' "
-            print(new_card_price)
+    #     if isinstance(price, dict):
+    #         new_card_price = f"{price} + '₽' "
+    #         print(new_card_price)
 
     return render(request, 'website/index.html', {'cards': cards})

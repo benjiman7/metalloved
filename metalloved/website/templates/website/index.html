@@ -241,7 +241,15 @@
                                     <h1 class="services__list-item-title">{{ card.title }}</h1>
                                     <p class="services__list-item-subtitle">{{ card.description }}</p>
                                     <div class="services__list-item-order">
-                                        <p class="services__list-item-price">{{ new_price }}</p>
+                                        {{% for new_price in prices %}}
+                                            {{% if len(new_price) < 1 %}}
+                                                <p class="services__list-item-price">{{ new_price + P }}</p>
+                                            {{% else %}}
+                                                <p class="services__list-item-price">{{ new_price }}</p>
+                                            {{% endif %}}
+                                        {{% endfor %}}
+
+
                                         <button class="services__list-item-button">Заказать</button>
                                     </div>
                                 </div>

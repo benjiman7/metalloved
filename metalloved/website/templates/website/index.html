@@ -241,13 +241,11 @@
                                     <h1 class="services__list-item-title">{{ card.title }}</h1>
                                     <p class="services__list-item-subtitle">{{ card.description }}</p>
                                     <div class="services__list-item-order">
-                                        <p class="services__list-item-price">{{ card.price }} ₽</p>
-
-                                        <!-- {{% if card.price is null %}}
-                                            <p class="services__list-item-price">Договрная</p>
-                                        {{% else %}} -->
-                                        <!-- {{% endif %}} -->
-                                        
+                                        {% if card.currency == card.RUB %}
+                                            <p class="services__list-item-price">{{ card.price }} ₽</p>
+                                        {% else %}
+                                            <p class="services__list-item-price">{{ card.RUB }}</p>                                    
+                                        {% endif %}
                                         <button class="services__list-item-button">Заказать</button>
                                     </div>
                                 </div>

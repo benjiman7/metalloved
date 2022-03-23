@@ -4,11 +4,14 @@ from .models import Card
 
 def home_page(request):
     cards = Card.objects.all()
-    prices = Card.objects.values('price')
-    for price in prices:
-        print(price)
-    #     if isinstance(price, dict):
-    #         new_card_price = f"{price} + '₽' "
-    #         print(new_card_price)
-
+    # print(cards)
+    # prices = Card.objects.values('price')
+    # print(prices)
+    # clear_prices = {}
+    # for price in prices:
+    #     clear_prices['new_price'] = price['price']
+    #     # clear_prices.append(clear_prices)
+    
+    # print(clear_prices)
+    
     return render(request, 'website/index.html', {'cards': cards})

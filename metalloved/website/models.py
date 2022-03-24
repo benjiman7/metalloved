@@ -5,9 +5,9 @@ from django.db import models
 # TODO: add description in admin panel for price and currency
 
 class Card(models.Model):
-    RUB = '₽'
-    NONE = 'Договорная'
-    CURRENCY_CHOICES = [(RUB, '₽'), (NONE, 'Договорная')]
+    RUB = 'rubles'
+    NONE = 'contract'
+    CURRENCY_CHOICES = [(RUB, '₽'), (NONE, 'Нет')]
     title = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
     image = models.ImageField(blank=True, default='default.svg')

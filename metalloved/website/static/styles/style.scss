@@ -727,7 +727,7 @@
     &__description-area-address-content {
         @include font(500, 18px, 23px);
         color: $white-text;
-        padding-bottom: 72px;
+        padding-bottom: 64px;
     }
 
     &__contacts {
@@ -799,32 +799,5 @@
     &__menu-link {
         @include font(400, 16px, 21px);
         color: $gray-text;
-    }
-
-    &__copyright-bg {
-        margin: 72px auto 0px auto;
-    }
-
-    &__copyright {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 16px 0px 16px 0px;
-    }
-
-    &__copyright-social {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-    }
-
-    &__copyright-title {
-        @include font(300, 14px, 18px);
-        color: $white-text;
-    }
-
-    &__copyright-social-title {
-        @include font(300, 14px, 18px);
-        color: $white-text;
     }
 }

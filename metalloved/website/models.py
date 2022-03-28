@@ -21,4 +21,6 @@ class Card(models.Model):
 
 
 class ContactForm(models.Model):
-    pass
+    name = models.CharField(max_length=70)
+    contact = models.CharField(max_length=100)
+    comment = models.TextField(blank=True)

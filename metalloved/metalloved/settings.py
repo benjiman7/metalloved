@@ -66,11 +66,11 @@ WSGI_APPLICATION = 'metalloved.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'metalloved',
-        'USER': 'postgres',
-        'PASSWORD': '123',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        # 'NAME': 'metalloved',
+        # 'USER': 'postgres',
+        # 'PASSWORD': '123',
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '5432',
     }
 }
 

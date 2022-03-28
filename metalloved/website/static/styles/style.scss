@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
 
 
-//TODO: добавить логотип во вкладке
-
 .header {
     .container-header {
         margin: 0 auto;
@@ -627,18 +625,34 @@
         }
 
         &__form-input {
-            @include font(500, 16px, 21px);
-            width: 432px;
-            height: 49px;
-            border: 1px solid #C4C4C4;
-            border-radius: 5px;
+            @include font(400, 16px, 21px);
             margin-bottom: 16px;
 
             ::placeholder {
                 border: 0;           
-                padding: 0;
+                padding: 16px;
                 color: $gray-text;
             }
+
+            :focus {
+                border: 1px solid #262626;
+                box-shadow: 0 0 0 1px #262626;
+            }
+        }
+
+        input {
+            width: 432px;
+            height: 49px;
+            border: 1px solid $gray-text;
+            border-radius: 5px;
+        }
+
+        textarea {
+            width: 432px;
+            height: 122px;
+            border: 1px solid $gray-text;
+            border-radius: 5px;
+            resize: none;
         }
 
         &__form-button {
@@ -655,7 +669,7 @@
             background-color: $second-accent;
             border: 1px solid $second-accent;
             color: #FFFFFF;
-            margin-top: 48px;
+            margin-top: 32px;
     
             &:hover {
                 transition: all 0.3s ease 0s;

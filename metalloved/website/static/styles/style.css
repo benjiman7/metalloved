@@ -1068,38 +1068,55 @@ body {
 }
 
 .main .order__form-input {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  width: 432px;
-  height: 49px;
-  border: 1px solid #C4C4C4;
-  border-radius: 5px;
   margin-bottom: 16px;
 }
 
 .main .order__form-input ::-webkit-input-placeholder {
   border: 0;
-  padding: 0;
+  padding: 16px;
   color: #999999;
 }
 
 .main .order__form-input :-ms-input-placeholder {
   border: 0;
-  padding: 0;
+  padding: 16px;
   color: #999999;
 }
 
 .main .order__form-input ::-ms-input-placeholder {
   border: 0;
-  padding: 0;
+  padding: 16px;
   color: #999999;
 }
 
 .main .order__form-input ::placeholder {
   border: 0;
-  padding: 0;
+  padding: 16px;
   color: #999999;
+}
+
+.main .order__form-input :focus {
+  border: 1px solid #262626;
+  -webkit-box-shadow: 0 0 0 1px #262626;
+          box-shadow: 0 0 0 1px #262626;
+}
+
+.main .order input {
+  width: 432px;
+  height: 49px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+
+.main .order textarea {
+  width: 432px;
+  height: 122px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  resize: none;
 }
 
 .main .order__form-button {
@@ -1125,7 +1142,7 @@ body {
   background-color: #FF8400;
   border: 1px solid #FF8400;
   color: #FFFFFF;
-  margin-top: 48px;
+  margin-top: 32px;
 }
 
 .main .order__form-button:hover {

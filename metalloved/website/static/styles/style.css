@@ -1076,32 +1076,28 @@ body {
 
 .main .order__form-input ::-webkit-input-placeholder {
   border: 0;
-  padding: 16px;
   color: #999999;
 }
 
 .main .order__form-input :-ms-input-placeholder {
   border: 0;
-  padding: 16px;
   color: #999999;
 }
 
 .main .order__form-input ::-ms-input-placeholder {
   border: 0;
-  padding: 16px;
   color: #999999;
 }
 
 .main .order__form-input ::placeholder {
   border: 0;
-  padding: 16px;
   color: #999999;
 }
 
 .main .order__form-input :focus {
-  border: 1px solid #262626;
-  -webkit-box-shadow: 0 0 0 1px #262626;
-          box-shadow: 0 0 0 1px #262626;
+  border: 1px solid #646464;
+  -webkit-box-shadow: 0 0 0 1px #646464;
+          box-shadow: 0 0 0 1px #646464;
 }
 
 .main .order input {
@@ -1109,6 +1105,7 @@ body {
   height: 49px;
   border: 1px solid #999999;
   border-radius: 5px;
+  padding-left: 16px;
 }
 
 .main .order textarea {
@@ -1117,6 +1114,7 @@ body {
   border: 1px solid #999999;
   border-radius: 5px;
   resize: none;
+  padding: 16px;
 }
 
 .main .order__form-button {
@@ -1214,7 +1212,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
-  padding-bottom: 72px;
+  padding-bottom: 64px;
 }
 
 .footer__contacts {
@@ -1310,46 +1308,5 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #999999;
-}
-
-.footer__copyright-bg {
-  margin: 72px auto 0px auto;
-}
-
-.footer__copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 16px 0px 16px 0px;
-}
-
-.footer__copyright-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 16px;
-}
-
-.footer__copyright-title {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
-
-.footer__copyright-social-title {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
-  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */

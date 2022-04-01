@@ -143,6 +143,11 @@ body {
 
 .header__content-top {
   height: 97px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background: #fff;
+  z-index: 10;
 }
 
 .header__navbar {

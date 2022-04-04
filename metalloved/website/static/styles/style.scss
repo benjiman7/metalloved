@@ -58,6 +58,7 @@
         top: 0px;
         background: #fff;
         z-index: 10;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
     }
 
     &__navbar {
@@ -804,5 +805,34 @@
     &__menu-link {
         @include font(400, 16px, 21px);
         color: $gray-text;
+    }
+}
+
+.send-bid {
+    &__button {
+        position: fixed;
+        bottom: 60px;
+        right: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: $accent;
+        color: $white-text;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
+        -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+
+        &:hover {
+            transition: all 0.3s ease 0s;
+            background-color: #227aff;
+            color: $white-text;
+        }
     }
 }

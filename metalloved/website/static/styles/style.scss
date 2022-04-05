@@ -211,7 +211,7 @@
 
 .main {
     .container-about {
-        margin: 94px auto;
+        margin: 116px auto;
     }
 
     .about {
@@ -286,7 +286,6 @@
     }
 
     .container-advantages {
-        margin: 94px auto;
         background-color: #F8F9FA;
     }
 
@@ -301,18 +300,19 @@
 
         &__title-content {
             @include title-block(advantages);
-            padding: 24px 0 36px;
+            padding: 36px 0 48px;
         }
 
         &__list {
             display: flex;
             flex-wrap: wrap;
+            margin-bottom: 20px;
         }
 
         &__list-item {
             display: flex;
             margin-right: 52px;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
 
         &__list-item-border {
@@ -351,7 +351,7 @@
     }
 
     .container-services {
-        margin: 94px 0;
+        margin: 116px auto;
     }
 
     .services {
@@ -365,7 +365,7 @@
         &__title-content {
             @include title-block(services);
             width: 1128px;
-            padding-bottom: 36px;
+            padding-bottom: 52px;
         }
 
         &__list {
@@ -443,7 +443,6 @@
     }
 
     .container-equipment {
-        margin: 94px auto;
         background-color: #F8F9FA;
     }
 
@@ -458,11 +457,11 @@
         &__title-content {
             @include title-block(equipment);
             width: 1128px;
-            padding: 24px 0 36px;
+            padding: 36px 0 48px;
         }
 
         &__list {
-            padding-bottom: 8px;
+            margin-bottom: 44px;
         }
 
         &__list-item {
@@ -494,7 +493,7 @@
     }
 
     .container-workflow {
-        margin: 94px auto;
+        margin: 116px auto;
     }
 
     .workflow {
@@ -509,7 +508,7 @@
             @include title-block(workflow);
             width: 1128px;
             align-items: center;
-            padding-bottom: 36px;
+            padding-bottom: 52px;
         }
 
         &__steps-list {
@@ -534,7 +533,7 @@
             border-radius: 50px;
             border: 2px solid #007BFF;
             box-sizing: border-box;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }
 
         &__steps-item-logo-stage {
@@ -562,7 +561,6 @@
     }
 
     .container-order {
-        margin: 94px auto 0px auto;
         background-color: #F8F9FA;
     }
 
@@ -574,7 +572,7 @@
 
         &__title-content {
             @include title-block(order);
-            padding: 24px 0px 36px 0px;
+            padding: 36px 0px 52px 0px;
         }
 
         &__info-list-item {
@@ -586,7 +584,7 @@
         &__info-content {
             display: flex;
             gap: 168px;
-            padding-bottom: 94px;
+            padding-bottom: 116px;
         }
 
         &__info-list-item-title {
@@ -601,7 +599,6 @@
             @include font(400, 18px, 21px);
             color: $text-title;
             padding-top: 10px;
-            padding-bottom: 4px;
             width: 384px;
         }
 
@@ -609,11 +606,13 @@
             @include font(400, 15px, 18px);
             color: #888692;
             text-decoration-line: underline;
+            padding-top: 6px;
         }
 
         &__info-list-item-text {
             @include font(400, 15px, 18px);
             color: #888692;
+            padding-top: 6px;
         }      
 
         &__form {
@@ -731,7 +730,7 @@
     }
 
     &__description-area-address-content {
-        @include font(500, 18px, 23px);
+        @include font(400, 18px, 23px);
         color: $white-text;
         padding-bottom: 64px;
     }
@@ -762,7 +761,7 @@
     }
 
     &__phone-content {
-        @include font(500, 18px, 23px);
+        @include font(400, 18px, 23px);
         display: block;
         color: $white-text;
         padding-bottom: 26px;
@@ -774,7 +773,7 @@
     }
 
     &__email-content {
-        @include font(500, 18px, 23px);
+        @include font(400, 18px, 23px);
         color: $white-text;
     }
 
@@ -799,7 +798,7 @@
     }
 
     &__menu-item {
-        padding-bottom: 20px;
+        padding-bottom: 16px;
     }
 
     &__menu-link {

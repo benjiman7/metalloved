@@ -364,7 +364,7 @@ body {
 }
 
 .main .container-about {
-  margin: 94px auto;
+  margin: 116px auto;
 }
 
 .main .about__content {
@@ -489,7 +489,6 @@ body {
 }
 
 .main .container-advantages {
-  margin: 94px auto;
   background-color: #F8F9FA;
 }
 
@@ -516,7 +515,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 24px 0 36px;
+  padding: 36px 0 48px;
 }
 
 .main .advantages__title-content .advantages__title-item {
@@ -541,6 +540,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .main .advantages__list-item {
@@ -548,7 +548,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-right: 52px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .main .advantages__list-item-border {
@@ -602,7 +602,7 @@ body {
 }
 
 .main .container-services {
-  margin: 94px 0;
+  margin: 116px auto;
 }
 
 .main .services__content {
@@ -626,7 +626,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 1128px;
-  padding-bottom: 36px;
+  padding-bottom: 52px;
 }
 
 .main .services__title-content .services__title-item {
@@ -752,7 +752,6 @@ body {
 }
 
 .main .container-equipment {
-  margin: 94px auto;
   background-color: #F8F9FA;
 }
 
@@ -777,7 +776,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 1128px;
-  padding: 24px 0 36px;
+  padding: 36px 0 48px;
 }
 
 .main .equipment__title-content .equipment__title-item {
@@ -797,7 +796,7 @@ body {
 }
 
 .main .equipment__list {
-  padding-bottom: 8px;
+  margin-bottom: 44px;
 }
 
 .main .equipment__list-item {
@@ -837,7 +836,7 @@ body {
 }
 
 .main .container-workflow {
-  margin: 94px auto;
+  margin: 116px auto;
 }
 
 .main .workflow__content {
@@ -864,7 +863,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 36px;
+  padding-bottom: 52px;
 }
 
 .main .workflow__title-content .workflow__title-item {
@@ -924,7 +923,7 @@ body {
   border: 2px solid #007BFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .main .workflow__steps-item-logo-stage {
@@ -957,7 +956,6 @@ body {
 }
 
 .main .container-order {
-  margin: 94px auto 0px auto;
   background-color: #F8F9FA;
 }
 
@@ -974,7 +972,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 24px 0px 36px 0px;
+  padding: 36px 0px 52px 0px;
 }
 
 .main .order__title-content .order__title-item {
@@ -1009,7 +1007,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 168px;
-  padding-bottom: 94px;
+  padding-bottom: 116px;
 }
 
 .main .order__info-list-item-title {
@@ -1032,7 +1030,6 @@ body {
   line-height: 21px;
   color: #333333;
   padding-top: 10px;
-  padding-bottom: 4px;
   width: 384px;
 }
 
@@ -1043,6 +1040,7 @@ body {
   color: #888692;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+  padding-top: 6px;
 }
 
 .main .order__info-list-item-text {
@@ -1050,6 +1048,7 @@ body {
   font-size: 15px;
   line-height: 18px;
   color: #888692;
+  padding-top: 6px;
 }
 
 .main .order__form {
@@ -1215,7 +1214,7 @@ body {
 }
 
 .footer__description-area-address-content {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
@@ -1257,7 +1256,7 @@ body {
 }
 
 .footer__phone-content {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   display: block;
@@ -1273,7 +1272,7 @@ body {
 }
 
 .footer__email-content {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
@@ -1307,7 +1306,7 @@ body {
 }
 
 .footer__menu-item {
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 .footer__menu-link {

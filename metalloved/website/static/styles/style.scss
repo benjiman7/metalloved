@@ -159,7 +159,7 @@
 
     &__card-list {
         display: flex;
-        margin-top: -160px;
+        margin-top: -200px;
         gap: 24px;
         position: relative;
         justify-content: center;
@@ -197,14 +197,15 @@
     &__card-title {
         @include font(500, 24px, 31px);
         color: $text-title;
-        padding-bottom: 8px;
+        text-align: center;
+        padding-bottom: 16px;
     }
 
     &__card-subtitle {
         @include font(400, 18px, 26px);
         color: $main-text;
         text-align: center;
-        padding: 8px 42px 48px;
+        padding: 0px 42px 48px;
     }
 }
 
@@ -857,6 +858,55 @@
 
         &__navbar-list {
             gap: 14px;
+        }
+
+        &__main-content-title {
+            @include font(700, 48px, 64px);
+        }
+
+        &__main-content-subtitle {
+            @include font(400, 17px, 22px);
+        }
+
+        &__card-item {
+            width: 264px;
+            height: 310px;
+        }
+
+        &__card-icon {
+            width: 80px;
+            height: 80px;
+            margin-top: 28px;
+            margin-bottom: 24px;
+        }
+
+        &__card-title {
+            @include font(500, 22px, 29px);
+            width: 168px;
+            height: 74px;
+        }
+    
+        &__card-subtitle {
+            @include font(400, 16px, 22px);
+            padding: 0px 14px 38px;
+        }
+    }
+
+    .main {
+        .about{
+            &__photo-img {
+                width: 384px;
+                height: 568px;
+            }
+
+            &__info {
+                margin-left: 96px;
+            }
+
+            &__info-subtitle {
+                width: 330px;
+                height: 130px;
+            }
         }
     }
 }

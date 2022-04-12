@@ -218,6 +218,7 @@
         &__content {
             display: flex;
             justify-content: center;
+            justify-content: space-between;
             width: 1128px;
             margin: 0 auto;
         }
@@ -233,7 +234,6 @@
         &__info {
             display: flex;
             flex-direction: column;
-            margin-left: 120px;
         }
 
         &__title-content {
@@ -306,13 +306,13 @@
         &__list {
             display: flex;
             flex-wrap: wrap;
-            margin-bottom: 20px;
+            justify-content: space-between;
+            margin-bottom: 16px;
         }
 
         &__list-item {
             display: flex;
-            margin-right: 52px;
-            margin-bottom: 40px;
+            margin-bottom: 48px;
         }
 
         &__list-item-border {
@@ -893,19 +893,31 @@
     }
 
     .main {
+        
         .about{
+            &__content {
+                justify-content: space-between;
+                width: 856px;
+            }
+
             &__photo-img {
                 width: 384px;
                 height: 568px;
             }
 
-            &__info {
-                margin-left: 96px;
-            }
-
             &__info-subtitle {
                 width: 330px;
                 height: 130px;
+            }
+        }
+
+        .advantages {
+            &__content {
+                width: 856px;
+            }
+
+            &__list-item-content {
+                width: 264px;
             }
         }
     }

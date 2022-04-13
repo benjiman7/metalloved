@@ -674,7 +674,7 @@ body {
 }
 
 .main .services__list-item-img {
-  height: 285px;
+  height: 288px;
   border-radius: 12px 12px 0 0;
 }
 
@@ -718,7 +718,7 @@ body {
 
 .main .services__list-item-price {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 23px;
   margin-right: auto;
 }
@@ -1413,7 +1413,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 856px;
+    width: 840px;
   }
   .main .about__photo-img {
     width: 384px;
@@ -1424,10 +1424,51 @@ body {
     height: 130px;
   }
   .main .advantages__content {
-    width: 856px;
+    width: 840px;
   }
   .main .advantages__list-item-content {
     width: 264px;
+  }
+  .main .services__content {
+    width: 840px;
+  }
+  .main .services__title-content {
+    width: 840px;
+  }
+  .main .services__list-item {
+    width: 264px;
+  }
+  .main .services__list-item-img {
+    height: 240px;
+  }
+  .main .services__list-item-title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 24px 26px 12px 26px;
+    height: 40px;
+  }
+  .main .services__list-item-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px 36px 16px 26px;
+  }
+  .main .services__list-item-order {
+    margin: 0px 14px 24px 26px;
+  }
+  .main .services__list-item-price {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .main .services__list-item-button {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    width: 105px;
+    height: 40px;
+    padding: 12px 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -384,7 +384,7 @@
         }
 
         &__list-item-img {
-            height: 285px;
+            height: 288px;
             border-radius: 12px 12px 0 0;
         }
 
@@ -415,7 +415,7 @@
         }
 
         &__list-item-price {
-            @include font(500, 18px, 23px);
+            @include font(500, 20px, 23px);
             margin-right: auto;
         }
 
@@ -897,7 +897,7 @@
         .about{
             &__content {
                 justify-content: space-between;
-                width: 856px;
+                width: 840px;
             }
 
             &__photo-img {
@@ -913,11 +913,55 @@
 
         .advantages {
             &__content {
-                width: 856px;
+                width: 840px;
             }
 
             &__list-item-content {
                 width: 264px;
+            }
+        }
+
+        .services {
+            &__content {
+                width: 840px;
+            }
+
+            &__title-content {
+                width: 840px;
+            }
+
+            &__list-item {
+                width: 264px;
+            }
+
+            &__list-item-img {
+                height: 240px;
+            }
+
+            &__list-item-title {
+                @include font(500, 17px, 21px);
+                margin: 24px 26px 12px 26px;
+                height: 40px;
+            }
+
+            &__list-item-subtitle {
+                @include font(400, 14px, 18px);
+                margin: 0px 36px 16px 26px;
+            }
+
+            &__list-item-order {
+                margin: 0px 14px 24px 26px;
+            }
+    
+            &__list-item-price {
+                @include font(500, 17px, 21px);
+            }
+    
+            &__list-item-button {
+                @include font(500, 15px, 20px);
+                width: 105px;
+                height: 40px;
+                padding: 12px 18px;
             }
         }
     }

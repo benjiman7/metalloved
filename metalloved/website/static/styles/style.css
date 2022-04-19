@@ -1361,6 +1361,13 @@ body {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1660px) {
+  .send-bid__button {
+    bottom: 60px;
+    right: 8px;
+  }
+}
+
 @media screen and (max-width: 1180px) {
   .header__info {
     font-weight: 400;
@@ -1511,10 +1518,9 @@ body {
   .footer__description-area {
     width: 360px;
   }
-}
-
-.send-bid__button {
-  bottom: 60px;
-  right: 12px;
+  .send-bid__button {
+    bottom: 60px;
+    right: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

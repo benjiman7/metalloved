@@ -842,6 +842,16 @@
     }
 }
 
+@media screen and (max-width: 1660px) {
+    .send-bid {
+        &__button {
+            bottom: 60px;
+            right: 8px;
+        }
+    }
+}
+
+
 @media screen and (max-width: 1180px) {
     .header {
         &__info {
@@ -1021,11 +1031,12 @@
             width: 360px;
         }
     }
-}
 
-.send-bid {
-    &__button {
-        bottom: 60px;
-        right: 12px;
+    .send-bid {
+        &__button {
+            bottom: 60px;
+            right: 12px;
+        }
     }
 }
+

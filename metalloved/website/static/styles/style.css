@@ -1190,7 +1190,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 124px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__description-area {
@@ -1452,10 +1454,10 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    margin: 0px 36px 16px 26px;
+    margin: 0px 36px 22px 26px;
   }
   .main .services__list-item-order {
-    margin: 0px 14px 24px 26px;
+    margin: 0px 14px 30px 26px;
   }
   .main .services__list-item-price {
     font-weight: 500;
@@ -1470,5 +1472,49 @@ body {
     height: 40px;
     padding: 12px 18px;
   }
+  .main .equipment__content {
+    width: 840px;
+  }
+  .main .equipment__title-content {
+    width: 840px;
+  }
+  .main .equipment__list {
+    margin-bottom: 26px;
+  }
+  .main .equipment__list-item {
+    width: 840px;
+  }
+  .main .workflow__content {
+    width: 840px;
+  }
+  .main .workflow__title-content {
+    width: 840px;
+  }
+  .main .workflow__steps-item {
+    width: 200px;
+  }
+  .main .workflow__steps-item-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .main .workflow__steps-item-description {
+    height: 62px;
+  }
+  .footer .container-footer {
+    width: 840px;
+  }
+  .footer__content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__description-area {
+    width: 360px;
+  }
+}
+
+.send-bid__button {
+  bottom: 60px;
+  right: 12px;
 }
 /*# sourceMappingURL=style.css.map */

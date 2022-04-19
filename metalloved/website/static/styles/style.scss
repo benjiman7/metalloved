@@ -389,6 +389,7 @@
         }
 
         //TODO: add auto-padding after item-content (probably using if)
+        // or get the highest block and apply this height to others
         &__list-item-content {
             display: flex;
             flex-direction: column;
@@ -482,6 +483,7 @@
         }
         
         //TODO: make the entire area clickable
+        //TODO: change icon from path to smth editable
         &__list-item-button {
             box-sizing: border-box;
             border: none;
@@ -709,7 +711,7 @@
 
     &__content {
         display: flex;
-        gap: 124px;
+        justify-content: space-between;
     }
 
     &__description-area {
@@ -946,11 +948,11 @@
 
             &__list-item-subtitle {
                 @include font(400, 14px, 18px);
-                margin: 0px 36px 16px 26px;
+                margin: 0px 36px 22px 26px;
             }
 
             &__list-item-order {
-                margin: 0px 14px 24px 26px;
+                margin: 0px 14px 30px 26px;
             }
     
             &__list-item-price {
@@ -964,5 +966,66 @@
                 padding: 12px 18px;
             }
         }
+
+        .equipment {
+            &__content {
+                width: 840px;
+            }
+
+            &__title-content {
+                width: 840px;
+            }
+            
+            &__list {
+                margin-bottom: 26px;
+            }
+    
+            &__list-item {
+                width: 840px;
+            }
+        }
+
+        .workflow {
+            &__content {
+                width: 840px;
+            }
+
+            &__title-content {
+                width: 840px;
+            }
+
+            &__steps-item {
+                width: 200px;
+            }
+
+            &__steps-item-logo {
+                width: 50px;
+                height: 50px;
+            }
+
+            &__steps-item-description {
+                height: 62px;
+            }
+        }
+    }
+    .footer {
+        .container-footer {
+            width: 840px;
+        }
+
+        &__content {
+            justify-content: space-between;
+        }
+        
+        &__description-area {
+            width: 360px;
+        }
+    }
+}
+
+.send-bid {
+    &__button {
+        bottom: 60px;
+        right: 12px;
     }
 }

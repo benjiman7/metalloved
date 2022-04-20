@@ -121,7 +121,7 @@
         color: #FFFFFF;
         padding-top: 64px;
         padding-bottom: 12px;
-        width: 867px;
+        width: 868px;
         text-align: center;
     }
 
@@ -130,7 +130,7 @@
         color: #FFFFFF;
         padding-top: 12px;
         padding-bottom: 58px;
-        width: 363px;
+        width: 364px;
         text-align: center;
     }
 
@@ -159,7 +159,7 @@
 
     &__card-list {
         display: flex;
-        margin-top: -200px;
+        margin-top: -170px;
         gap: 24px;
         position: relative;
         justify-content: center;
@@ -874,10 +874,19 @@
 
         &__main-content-title {
             @include font(700, 48px, 64px);
+            width: 802px;
         }
 
         &__main-content-subtitle {
             @include font(400, 17px, 22px);
+            width: 310px;
+        }
+
+        &__main-content-button {
+            @include font(700, 16px, 21px);
+            width: 170px;
+            height: 46px;
+            padding: 12px 20px;
         }
 
         &__card-item {
@@ -1040,3 +1049,63 @@
     }
 }
 
+@media screen and (max-width: 880px) {
+    .header {
+        &__top {
+            display: none;
+        }
+
+        &__navbar-menu {
+            display: none;
+        }
+
+        &__main-content-overlay {
+            height: 580px;
+        }
+
+        &__main-content-title {
+            @include font(700, 40px, 52px);
+            width: 618px;
+        }
+
+        &__main-content-subtitle {
+            @include font(400, 16px, 21px);
+            width: 292px;
+        }
+
+        &__main-content-button {
+            @include font(700, 14px, 18px);
+            width: 146px;
+            height: 38px;
+            padding: 10px 16px;
+        }
+
+        &__card-item {
+            width: 198px;
+            height: 264px;
+        }
+
+        &__card-icon {
+            width: 60px;
+            height: 60px;
+            margin-top: 26px;
+            margin-bottom: 20px;
+        }
+
+        &__card-title {
+            @include font(500, 18px, 23px);
+            width: 126px;
+            height: 46px;
+        }
+    
+        &__card-subtitle {
+            @include font(400, 13px, 17px);
+            padding: 16px 11px 28px;
+            width: 176px;
+        }
+
+        &__card-list {
+            margin-top: -150px;
+        }
+    }
+}

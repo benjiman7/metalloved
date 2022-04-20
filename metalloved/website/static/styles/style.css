@@ -241,7 +241,7 @@ body {
   color: #FFFFFF;
   padding-top: 64px;
   padding-bottom: 12px;
-  width: 867px;
+  width: 868px;
   text-align: center;
 }
 
@@ -252,7 +252,7 @@ body {
   color: #FFFFFF;
   padding-top: 12px;
   padding-bottom: 58px;
-  width: 363px;
+  width: 364px;
   text-align: center;
 }
 
@@ -293,7 +293,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -200px;
+  margin-top: -170px;
   gap: 24px;
   position: relative;
   -webkit-box-pack: center;
@@ -1389,11 +1389,21 @@ body {
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
+    width: 802px;
   }
   .header__main-content-subtitle {
     font-weight: 400;
     font-size: 17px;
     line-height: 22px;
+    width: 310px;
+  }
+  .header__main-content-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    width: 170px;
+    height: 46px;
+    padding: 12px 20px;
   }
   .header__card-item {
     width: 264px;
@@ -1521,6 +1531,65 @@ body {
   .send-bid__button {
     bottom: 60px;
     right: 12px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .header__top {
+    display: none;
+  }
+  .header__navbar-menu {
+    display: none;
+  }
+  .header__main-content-overlay {
+    height: 580px;
+  }
+  .header__main-content-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    width: 618px;
+  }
+  .header__main-content-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 292px;
+  }
+  .header__main-content-button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    width: 146px;
+    height: 38px;
+    padding: 10px 16px;
+  }
+  .header__card-item {
+    width: 198px;
+    height: 264px;
+  }
+  .header__card-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+  }
+  .header__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    width: 126px;
+    height: 46px;
+  }
+  .header__card-subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 16px 11px 28px;
+    width: 176px;
+  }
+  .header__card-list {
+    margin-top: -150px;
   }
 }
 /*# sourceMappingURL=style.css.map */

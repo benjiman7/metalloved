@@ -6,23 +6,23 @@
     line-height: $lh;
 }
 
-@mixin title-block ($section-name) {
+@mixin title-block ($section-name, $fw, $fs, $lh, $tlw, $tlm) {
     display: flex;
     flex-direction: column;
 
     .#{$section-name}__title-item {
         font-family: "IBM Plex Sans";
-        font-weight: 600;
+        font-weight: $fw;
         color: $text-title;
-        font-size: 34px;
-        line-height: 44px;
+        font-size: $fs;
+        line-height: $lh;
     }
 
     .#{$section-name}__title-line {
-        width: 74px;
+        width: $tlw;
         height: 4px;
         border-radius: 0px 5px;
         background: $accent;
-        margin-top: 10px;
+        margin-top: $tlm;
     }
 }

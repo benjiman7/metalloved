@@ -167,6 +167,10 @@ body {
   padding-bottom: 24px;
 }
 
+.header__navbar-adaptive {
+  display: none;
+}
+
 .header__navbar-list {
   font-weight: 400;
   font-size: 18px;
@@ -692,7 +696,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  margin: 24px 36px 16px 36px;
+  margin: 24px 26px 16px 32px;
   color: #333333;
   height: 46px;
 }
@@ -701,7 +705,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  margin: 0px 36px 20px 36px;
+  margin: 0px 26px 20px 32px;
   color: #666666;
   height: 54px;
 }
@@ -713,7 +717,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 36px 32px 36px;
+  margin: 0px 26px 32px 32px;
 }
 
 .main .services__list-item-price {
@@ -1330,11 +1334,9 @@ body {
 
 .send-bid__button {
   position: fixed;
-  bottom: 60px;
-  right: 180px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  bottom: 40px;
+  right: 40px;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1466,17 +1468,17 @@ body {
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
-    margin: 24px 26px 12px 26px;
+    margin: 24px 16px 12px 22px;
     height: 40px;
   }
   .main .services__list-item-subtitle {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    margin: 0px 36px 22px 26px;
+    margin: 0px 16px 24px 22px;
   }
   .main .services__list-item-order {
-    margin: 0px 14px 30px 26px;
+    margin: 0px 16px 28px 22px;
   }
   .main .services__list-item-price {
     font-weight: 500;
@@ -1487,7 +1489,7 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    width: 105px;
+    width: 102px;
     height: 40px;
     padding: 12px 18px;
   }
@@ -1546,8 +1548,42 @@ body {
   .header__navbar {
     width: 648px;
   }
-  .header__navbar-menu {
+  .header__navbar-logo-img {
+    padding-left: 30px;
+    padding-right: 168px;
+  }
+  .header__navbar-list {
     display: none;
+  }
+  .header__navbar-adaptive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-right: 26px;
+  }
+  .header__navbar-adaptive-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 6px;
+  }
+  .header__navbar-call-us-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .header__navber-call-us-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4B93FF;
   }
   .header__navbar-button {
     font-weight: 500;
@@ -1656,7 +1692,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
-    gap: 8px;
+    gap: 6px;
     margin-bottom: 42px;
   }
   .main .about__info-call-us-icon-img {
@@ -1677,8 +1713,225 @@ body {
   .main .advantages__content {
     width: 648px;
   }
+  .main .advantages__title-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 28px 0 36px;
+  }
+  .main .advantages__title-content .advantages__title-item {
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    color: #333333;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .main .advantages__title-content .advantages__title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 0px 5px;
+    background: #4B93FF;
+    margin-top: 8px;
+  }
+  .main .advantages__list-item {
+    margin-bottom: 38px;
+  }
+  .main .advantages__list-item-border {
+    width: 70px;
+    height: 70px;
+  }
+  .main .advantages__list-item-icon {
+    width: 36px;
+    height: 36px;
+  }
   .main .advantages__list-item-content {
-    width: 264px;
+    width: 220px;
+  }
+  .main .advantages__list-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .main .advantages__list-item-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .main .services__content {
+    width: 648px;
+  }
+  .main .services__title-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 28px 0 36px;
+    width: 648px;
+  }
+  .main .services__title-content .services__title-item {
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    color: #333333;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .main .services__title-content .services__title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 0px 5px;
+    background: #4B93FF;
+    margin-top: 8px;
+  }
+  .main .services__list {
+    gap: 36px;
+  }
+  .main .services__list-item {
+    width: 306px;
+  }
+  .main .services__list-item-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 24px 22px 12px 26px;
+  }
+  .main .services__list-item-subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 22px 16px 26px;
+  }
+  .main .services__list-item-order {
+    margin: 0px 22px 28px 26px;
+  }
+  .main .services__list-item-price {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .main .services__list-item-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    width: 106px;
+    height: 40px;
+    padding: 12px 18px;
+  }
+  .main .equipment__content {
+    width: 648px;
+  }
+  .main .equipment__title-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 28px 0 36px;
+  }
+  .main .equipment__title-content .equipment__title-item {
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    color: #333333;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .main .equipment__title-content .equipment__title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 0px 5px;
+    background: #4B93FF;
+    margin-top: 8px;
+  }
+  .main .equipment__list-item {
+    width: 648px;
+  }
+  .main .equipment__list-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 20px;
+  }
+  .main .equipment__list-item-name {
+    padding-left: 22px;
+  }
+  .main .equipment__list-item-img {
+    width: 20px;
+    height: 10px;
+  }
+  .main .equipment__list-item-button {
+    padding-right: 20px;
+  }
+  .main .workflow__content {
+    width: 648px;
+  }
+  .main .workflow__title-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 0 36px 0;
+    width: 648px;
+  }
+  .main .workflow__title-content .workflow__title-item {
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    color: #333333;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .main .workflow__title-content .workflow__title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 0px 5px;
+    background: #4B93FF;
+    margin-top: 8px;
+  }
+  .main .workflow__steps-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .main .workflow__steps-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 576px;
+  }
+  .main .workflow__steps-item-logo {
+    margin: 0 46px 0 0;
+  }
+  .main .workflow__steps-item-title {
+    text-align: left;
+  }
+  .main .workflow__steps-item-description {
+    text-align: left;
+    height: auto;
+  }
+  .main .workflow__steps-divider {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin: 18px 0 18px 12px;
+  }
+  .footer__content {
+    width: 648px;
   }
 }
 /*# sourceMappingURL=style.css.map */

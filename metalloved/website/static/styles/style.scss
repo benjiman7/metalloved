@@ -70,6 +70,10 @@
         padding-bottom: 24px;
     }
 
+    &__navbar-adaptive {
+        display: none;
+    }
+
     &__navbar-list {
         @include font(400, 18px, 23px);
         display: flex;
@@ -287,6 +291,7 @@
         background-color: #F8F9FA;
     }
 
+    //TODO: change icons color
     .advantages {
         &__content {
             display: flex;
@@ -395,14 +400,14 @@
 
         &__list-item-title {
             @include font(500, 20px, 23px);
-            margin: 24px 36px 16px 36px;
+            margin: 24px 26px 16px 32px;
             color: $text-title;
             height: 46px;
         }
 
         &__list-item-subtitle {
             @include font(400, 16px, 18px);
-            margin: 0px 36px 20px 36px;
+            margin: 0px 26px 20px 32px;
             color: $main-text;
             height: 54px;
         }
@@ -410,7 +415,7 @@
         &__list-item-order {
             display: flex;
             align-items: center;
-            margin: 0px 36px 32px 36px;
+            margin: 0px 26px 32px 32px;
         }
 
         &__list-item-price {
@@ -814,9 +819,9 @@
 .send-bid {
     &__button {
         position: fixed;
-        bottom: 60px;
-        right: 180px;
-        display: flex;
+        bottom: 40px;
+        right: 40px;
+        display: none;
         align-items: center;
         justify-content: center;
         width: 60px;
@@ -912,7 +917,6 @@
     }
 
     .main {
-        
         .about{
             &__content {
                 justify-content: space-between;
@@ -959,17 +963,17 @@
 
             &__list-item-title {
                 @include font(500, 17px, 21px);
-                margin: 24px 26px 12px 26px;
+                margin: 24px 16px 12px 22px;
                 height: 40px;
             }
 
             &__list-item-subtitle {
                 @include font(400, 14px, 18px);
-                margin: 0px 36px 22px 26px;
+                margin: 0px 16px 24px 22px;
             }
 
             &__list-item-order {
-                margin: 0px 14px 30px 26px;
+                margin: 0px 16px 28px 22px;
             }
     
             &__list-item-price {
@@ -978,7 +982,7 @@
     
             &__list-item-button {
                 @include font(500, 15px, 20px);
-                width: 105px;
+                width: 102px;
                 height: 40px;
                 padding: 12px 18px;
             }
@@ -1061,8 +1065,34 @@
             width: 648px;
         }
 
-        &__navbar-menu {
+        &__navbar-logo-img {
+            padding-left: 30px;
+            padding-right: 168px;
+        }
+
+        &__navbar-list {
             display: none;
+        }
+
+        &__navbar-adaptive {
+            display: flex;
+            flex-direction: column;
+            padding-right: 26px;
+        }
+
+        &__navbar-adaptive-content {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        &__navbar-call-us-phone {
+            @include font(400, 14px, 18px)
+        }
+
+        &__navber-call-us-title {
+            @include font(400, 12px, 16px);
+            color: $accent;
         }
 
         &__navbar-button {
@@ -1123,7 +1153,6 @@
     }
 
     .main {
-        
         .about{
             &__content {
                 justify-content: space-between;
@@ -1136,7 +1165,7 @@
             }
 
             &__title-content {
-                @include title-block(about, 600, 30px, 39px, 60px, 8px)
+                @include title-block(about, 600, 30px, 39px, 60px, 8px);
             }
 
             &__title-line {
@@ -1154,7 +1183,7 @@
 
             &__info-advantages-list {
                 @include font(400, 14px, 26px);
-                gap: 8px;
+                gap: 6px;
                 margin-bottom: 42px;
             }
             
@@ -1178,9 +1207,163 @@
                 width: 648px;
             }
 
+            &__title-content {
+                @include title-block(advantages, 600, 30px, 39px, 60px, 8px);
+                padding: 28px 0 36px;
+            }
+
+            &__list-item {
+                margin-bottom: 38px;
+            }
+
+            &__list-item-border {
+                width: 70px;
+                height: 70px;
+            }
+
+            &__list-item-icon {
+                width: 36px;
+                height: 36px;
+            }
+
             &__list-item-content {
-                width: 264px;
+                width: 220px;
+            }
+
+            &__list-item-title {
+                @include font(500, 16px, 21px);
+            }
+
+            &__list-item-description {
+                @include font(400, 14px, 22px);
             }
         }
+
+        .services {
+            &__content {
+                width: 648px;
+            }
+
+            &__title-content {
+                @include title-block(services, 600, 30px, 39px, 60px, 8px);
+                padding: 28px 0 36px;
+                width: 648px;
+            }
+
+            &__list {
+                gap: 36px;
+            }
+
+            &__list-item {
+                width: 306px;
+            }
+
+            &__list-item-title {
+                @include font(500, 18px, 23px);
+                margin: 24px 22px 12px 26px;
+            }
+
+            &__list-item-subtitle {
+                @include font(400, 15px, 20px);
+                margin: 0 22px 16px 26px;
+            }
+
+            &__list-item-order {
+                margin: 0px 22px 28px 26px;
+            }
+
+            &__list-item-price {
+                @include font(500, 18px, 23px);
+            }
+
+            &__list-item-button {
+                @include font(500, 16px, 21px);
+                width: 106px;
+                height: 40px;
+                padding: 12px 18px;
+            }
+        }
+
+        .equipment {
+            &__content {
+                width: 648px;
+            }
+
+            &__title-content {
+                @include title-block(equipment, 600, 30px, 39px, 60px, 8px);
+                padding: 28px 0 36px;
+            }
+
+            &__list-item {
+                width: 648px;
+            }
+
+            &__list-item-name {
+                @include font(500, 16px, 21px);
+                padding-left: 20px;
+            }
+
+            &__list-item-name {
+                padding-left: 22px;
+            }
+
+            &__list-item-img {
+                width: 20px;
+                height: 10px;
+            }
+
+            &__list-item-button {
+                padding-right: 20px;
+            }
+        }
+
+        .workflow {
+            &__content {
+                width: 648px;
+            }
+
+            &__title-content {
+                @include title-block(workflow, 600, 30px, 39px, 60px, 8px);
+                padding: 0 0 36px 0;
+                width: 648px;
+            }
+
+            &__steps-list {
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: flex-start;
+            }
+
+            &__steps-item {
+                flex-direction: row;
+                width: 576px;
+            }
+
+            &__steps-item-logo {
+                margin: 0 46px 0 0;
+            }
+
+            &__steps-item-title {
+                text-align: left;
+            }
+
+            &__steps-item-description {
+                text-align: left;
+                height: auto;
+            }
+
+            &__steps-divider {
+                transform: rotate(90deg);
+                margin: 18px 0 18px 12px;
+            }
+        }  
+    }
+
+    .footer {
+        &__content {
+            width: 648px;
+        }
+
+        
     }
 }

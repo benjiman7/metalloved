@@ -705,14 +705,14 @@
 }
 
 .footer {
-    background-color: $footer-bg;
 
     .container-footer {
-        margin: 0px auto;
-        width: 1128px;
+        background-color: $footer-bg;
     }
 
     &__content {
+        margin: 0px auto;
+        width: 1128px;
         display: flex;
         justify-content: space-between;
     }
@@ -1034,12 +1034,9 @@
         }
     }
     .footer {
-        .container-footer {
-            width: 840px;
-        }
-
         &__content {
             justify-content: space-between;
+            width: 840px;
         }
         
         &__description-area {
@@ -1362,8 +1359,48 @@
     .footer {
         &__content {
             width: 648px;
+            flex-wrap: wrap;
         }
 
+        &__description-area {
+            width: 648px;
+        }
+
+        &__description-area-text {
+            padding: 14px 0 18px 0;
+        }
+
+        &__description-area-address-content {
+            padding-bottom: 42px;
+        }
+
+        &__contacts-title-item {
+            padding: 0;
+        }
+
+        &__contacts-title-line {
+            margin: 6px 0 16px 0;
+        }
+
+        &__phone-content {
+            padding-bottom: 16px;
+        }
+
+        &__menu {
+            padding-bottom: 48px;
+        }
+
+        &__menu-title-item {
+            padding: 0;
+        }
+
+        &__menu-title-line {
+            margin: 6px 0 16px 0;
+        }
+
+        &__menu-item {
+            padding-bottom: 14px;
+        }
         
     }
 }

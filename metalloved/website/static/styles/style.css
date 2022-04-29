@@ -811,26 +811,41 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 18px 30px 34px 30px;
   width: 1128px;
   height: 62px;
+  overflow: hidden;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
   border-radius: 12px;
   margin-bottom: 16px;
+  -webkit-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
+}
+
+.main .equipment__list-item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 34px;
 }
 
 .main .equipment__list-item-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-  padding-left: 36px;
+  color: #333333;
 }
 
 .main .equipment__list-item-button {
@@ -839,8 +854,55 @@ body {
   border: none;
   cursor: pointer;
   background-color: transparent;
+  padding: 0;
   color: #4B93FF;
-  padding-right: 30px;
+  -webkit-transition: -webkit-transform ease-in-out 0.5s;
+  transition: -webkit-transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s, -webkit-transform ease-in-out 0.5s;
+}
+
+.main .equipment__list-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .equipment__list-item-content-img {
+  width: 360px;
+  height: 266px;
+  border-radius: 12px;
+}
+
+.main .equipment__list-item-properties {
+  width: 670px;
+}
+
+.main .equipment__list-item-properties-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+.main .equipment__list-item-properties-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #666666;
+}
+
+.main .equipment .card.active .toggle {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.main .equipment .card.active {
+  height: 378px;
 }
 
 .main .container-workflow {
@@ -1501,6 +1563,19 @@ body {
   }
   .main .equipment__list-item {
     width: 840px;
+    padding: 18px 30px 32px 30px;
+  }
+  .main .equipment__list-item-content-img {
+    height: 272px;
+  }
+  .main .equipment__list-item-properties {
+    width: 390px;
+  }
+  .main .equipment__list-item-properties-title {
+    margin-bottom: 14px;
+  }
+  .main .equipment .card.active {
+    height: 382px;
   }
   .main .workflow__content {
     width: 840px;
@@ -1845,24 +1920,46 @@ body {
     background: #4B93FF;
     margin-top: 8px;
   }
+  .main .equipment__list {
+    margin-bottom: 14px;
+  }
   .main .equipment__list-item {
     width: 648px;
+    padding: 18px 20px 28px 28px;
+  }
+  .main .equipment__list-item-title {
+    margin-bottom: 30px;
   }
   .main .equipment__list-item-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 21px;
-    padding-left: 20px;
-  }
-  .main .equipment__list-item-name {
-    padding-left: 22px;
+    line-height: 20px;
   }
   .main .equipment__list-item-img {
     width: 20px;
     height: 10px;
   }
-  .main .equipment__list-item-button {
-    padding-right: 20px;
+  .main .equipment__list-item-content-img {
+    width: 292px;
+    height: 210px;
+    border-radius: 12px;
+  }
+  .main .equipment__list-item-properties {
+    width: 292px;
+  }
+  .main .equipment__list-item-properties-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 8px;
+  }
+  .main .equipment__list-item-properties-content {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .main .equipment .card.active {
+    height: 306px;
   }
   .main .workflow__content {
     width: 648px;

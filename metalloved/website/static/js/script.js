@@ -1,7 +1,8 @@
-const card = document.querySelector('.card');
-const cardtoggle = document.querySelector('.toggle');
+const card = document.querySelector('.equipment__list-item');
+const cardtoggle = document.querySelector('.equipment__list-item-button');
 cardtoggle.onclick = function(){
-  card.classList.toggle('active')
+  card.classList.toggle('equipment__list-item_open')
+  cardtoggle.classList.toggle('equipment__list-item-button_toggle')
 }
 
 

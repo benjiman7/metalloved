@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
 
-
+//TODO: check all line height 
 .header {
     .container-header {
         margin: 0 auto;
@@ -531,11 +531,11 @@
             color: $main-text;
         }
 
-        .card.active .toggle{
+        &__list-item-button_toggle {
             transform: rotate(-180deg);
         }
 
-        .card.active {
+        &__list-item_open {
             height: 378px;
         }
     }
@@ -1050,6 +1050,7 @@
             }
 
             &__list-item-content-img {
+                width: 360px;
                 height: 272px;
             }
 
@@ -1061,7 +1062,7 @@
                 margin-bottom: 14px;
             }
 
-            .card.active {
+            &__list-item_open {
                 height: 382px;
             }
         }
@@ -1349,6 +1350,7 @@
             &__title-content {
                 @include title-block(equipment, 600, 30px, 39px, 60px, 8px);
                 padding: 28px 0 36px;
+                width: 648px;
             }
 
             &__list {
@@ -1357,14 +1359,19 @@
 
             &__list-item {
                 width: 648px;
-                padding: 18px 20px 28px 28px;
+                height: 56px;
+                padding: 18px 20px 28px 20px;
             }
-
+            
             &__list-item-title {
                 margin-bottom: 30px;
             }
 
-            //TODO: check all line height 
+            &__list-item-content-img {
+                width: 292px;
+                height: 210px;
+            }
+
             &__list-item-name {
                 @include font(500, 16px, 20px);
             }
@@ -1374,12 +1381,6 @@
                 height: 10px;
             }
 
-            &__list-item-content-img {
-                width: 292px;
-                height: 210px;
-                border-radius: 12px;
-            }
-    
             &__list-item-properties {
                 width: 292px;
             }
@@ -1393,7 +1394,7 @@
                 @include font(400, 12px, 16px);
             }
 
-            .card.active {
+            &__list-item_open {
                 height: 306px;
             }
         }
@@ -1484,7 +1485,18 @@
 
         &__menu-item {
             padding-bottom: 14px;
+        }   
+    }
+
+    .send-bid {
+        &__button {
+            width: 50px;
+            height: 50px;
         }
-        
+
+        &__button-img {
+            width: 28px;
+            height: 28px;
+        }
     }
 }

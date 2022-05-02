@@ -896,12 +896,12 @@ body {
   color: #666666;
 }
 
-.main .equipment .card.active .toggle {
+.main .equipment__list-item-button_toggle {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
 
-.main .equipment .card.active {
+.main .equipment__list-item_open {
   height: 378px;
 }
 
@@ -1566,6 +1566,7 @@ body {
     padding: 18px 30px 32px 30px;
   }
   .main .equipment__list-item-content-img {
+    width: 360px;
     height: 272px;
   }
   .main .equipment__list-item-properties {
@@ -1574,7 +1575,7 @@ body {
   .main .equipment__list-item-properties-title {
     margin-bottom: 14px;
   }
-  .main .equipment .card.active {
+  .main .equipment__list-item_open {
     height: 382px;
   }
   .main .workflow__content {
@@ -1905,6 +1906,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 28px 0 36px;
+    width: 648px;
   }
   .main .equipment__title-content .equipment__title-item {
     font-family: "IBM Plex Sans";
@@ -1925,10 +1927,15 @@ body {
   }
   .main .equipment__list-item {
     width: 648px;
-    padding: 18px 20px 28px 28px;
+    height: 56px;
+    padding: 18px 20px 28px 20px;
   }
   .main .equipment__list-item-title {
     margin-bottom: 30px;
+  }
+  .main .equipment__list-item-content-img {
+    width: 292px;
+    height: 210px;
   }
   .main .equipment__list-item-name {
     font-weight: 500;
@@ -1938,11 +1945,6 @@ body {
   .main .equipment__list-item-img {
     width: 20px;
     height: 10px;
-  }
-  .main .equipment__list-item-content-img {
-    width: 292px;
-    height: 210px;
-    border-radius: 12px;
   }
   .main .equipment__list-item-properties {
     width: 292px;
@@ -1958,7 +1960,7 @@ body {
     font-size: 12px;
     line-height: 16px;
   }
-  .main .equipment .card.active {
+  .main .equipment__list-item_open {
     height: 306px;
   }
   .main .workflow__content {
@@ -2056,6 +2058,14 @@ body {
   }
   .footer__menu-item {
     padding-bottom: 14px;
+  }
+  .send-bid__button {
+    width: 50px;
+    height: 50px;
+  }
+  .send-bid__button-img {
+    width: 28px;
+    height: 28px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -48,7 +48,23 @@
             </div>
         </div>
         <div class="header__content-top">
+
             <div class="header__navbar">
+                <div class="header__hamburger">
+                    <div class="header__hamburger-icon">
+                        <span></span> 
+                    </div>
+                    <nav class="header__hamburger-nav-menu">
+                        <ul class="header__hamburger-nav-menu-list">
+                            <li class="header__hamburger-nav-menu-item"><a data-goto=".header__page-section" href="#" class="header__hamburger-nav-menu-link">Главная</a></li>
+                            <li class="header__hamburger-nav-menu-item"><a data-goto=".about__page-section" href="#" class="header__hamburger-nav-menu-link">О лаборатории</a></li>
+                            <li class="header__hamburger-nav-menu-item"><a data-goto=".services__page-section" href="#" class="header__hamburger-nav-menu-link">Услуги</a></li>
+                            <li class="header__hamburger-nav-menu-item"><a data-goto=".equipment__page-section" href="#" class="header__hamburger-nav-menu-link">Оборудование</a></li>
+                            <li class="header__hamburger-nav-menu-item"><a data-goto=".contacts__page-section" href="#" class="header__hamburger-nav-menu-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+               
                 <div class="header__navbar-logo">
                     <a href="#" class="header__navbar-logo">
                         <img class="header__navbar-logo-img" src="../../static/images/icons/logo.svg" alt="Logo">
@@ -66,19 +82,19 @@
                     </div>
                     <ul class="header__navbar-list">
                         <li class="header__navbar-list-item">
-                            <a href="#" class="header__navbar-list-link">Главная</a>
+                            <a data-link="header__page-section" href="#header" class="header__navbar-list-link">Главная</a>
                         </li>
                         <li class="header__navbar-list-item">
-                            <a href="#" class="header__navbar-list-link">О лаборатории</a>
+                            <a data-link="about__page-section" href="#about" class="header__navbar-list-link">О лаборатории</a>
                         </li>
                         <li class="header__navbar-list-item">
-                            <a href="#" class="header__navbar-list-link">Услуги</a>
+                            <a data-link="services__page-section" href="#services" class="header__navbar-list-link">Услуги</a>
                         </li>
                         <li class="header__navbar-list-item">
-                            <a href="#" class="header__navbar-list-link">Оборудование</a>
+                            <a data-link="equipment__page-section" href="#equipment" class="header__navbar-list-link">Оборудование</a>
                         </li>
                         <li class="header__navbar-list-item">
-                            <a href="#" class="header__navbar-list-link">Контакты</a>
+                            <a data-link="contacts__page-section" href="#contacts" class="header__navbar-list-link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -87,7 +103,7 @@
                 </button>
             </div>
         </div>
-        <header class="header">
+        <header class="header" id="header__page-section">
             <div class="container-header">
                 <div class="header__main-content-bg">
                     <div class="header__main-content-overlay">
@@ -128,7 +144,7 @@
             </div>
         </header>
         <div class="main">
-            <section class="about">
+            <section class="about" id="about__page-section">
                 <div class="container-about">
                     <div class="about__content">
                         <div class="about__photo">
@@ -230,7 +246,7 @@
                     </div>
                 </div>
             </section>
-            <section class="services">
+            <section class="services" id="services__page-section">
                 <div class="container-services">
                     <div class="services__content">
                         <div class="services__title-content">
@@ -259,7 +275,7 @@
                     </div>
                 </div>
             </section>
-            <section class="equipment">
+            <section class="equipment" id="equipment__page-section">
                 <div class="container-equipment">
                     <div class="equipment__content">
                         <div class="equipment__title-content">
@@ -431,7 +447,7 @@
                 </div>
             </section>
         </div>
-        <footer class="footer">
+        <footer class="footer" id="contacts__page-section">
             <div class="container-footer">
                 <div class="footer__content">
                     <div class="footer__description-area">

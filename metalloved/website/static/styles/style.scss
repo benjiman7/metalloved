@@ -78,10 +78,6 @@
         display: none;
     }
 
-    // &__hamburger-icon {
-    //     display: none;
-    // }
-
     &__navbar-adaptive {
         display: none;
     }
@@ -1203,17 +1199,6 @@
             padding: 100px 60px 60px 60px;
             transition: left 0.3s ease 0s;
             overflow: auto;
-
-            &::before {
-                content: "";
-                position: fixed;
-                width: 100%;
-                top: 0;
-                left: 0;
-                height: 98px;
-                background-color: rgba(0, 0, 0, 0.2);
-                z-index: 2;
-            }
         }
 
         &__hamburger-nav-menu_active {
@@ -1231,7 +1216,7 @@
 
         &__navbar-logo-img {
             padding-left: 30px;
-            padding-right: 168px;
+            padding-right: 164px;
         }
 
         &__navbar-list {

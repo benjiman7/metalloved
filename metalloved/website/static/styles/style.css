@@ -1686,16 +1686,6 @@ body {
     transition: left 0.3s ease 0s;
     overflow: auto;
   }
-  .header__hamburger-nav-menu::before {
-    content: "";
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 98px;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 2;
-  }
   .header__hamburger-nav-menu_active {
     left: 0;
   }
@@ -1708,7 +1698,7 @@ body {
   }
   .header__navbar-logo-img {
     padding-left: 30px;
-    padding-right: 168px;
+    padding-right: 164px;
   }
   .header__navbar-list {
     display: none;

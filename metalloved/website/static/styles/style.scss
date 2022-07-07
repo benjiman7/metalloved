@@ -1884,5 +1884,266 @@
             padding-bottom: 42px;
         }
     }
+}
 
+@media screen and (max-width: 380px) {
+    .header {
+        &__navbar {
+            width: 264px;
+        }
+
+        &__navbar-logo-img {
+            display: none;
+        }
+
+        &__main-content-overlay {
+            height: 360px;
+            height: 442px;
+        }
+
+        &__main-content-title {
+            @include font(700, 26px, 34px);
+            width: 334px;
+        }
+
+        &__main-content-subtitle {
+            @include font(400, 14px, 20px);
+            width: 254px;
+        }
+
+        &__card-item {
+            width: 264px;
+            height: 170px;
+        }
+
+        &__card-icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        &__card-icon-img {
+            width: 30px;
+            height: 30px;
+        }
+
+        &__card-title {
+            @include font(500, 16px, 22px);
+            width: 260px;
+            padding-bottom: 14px;
+        }
+    
+        &__card-subtitle {
+            @include font(400, 12px, 16px);
+            padding: 0px 0px 26px 0px;
+            width: 312px;
+        }
+
+        &__card-list {
+            margin-top: -64px;
+        }
+    }
+
+    .main {
+        .about{
+            &__content {
+                align-items: center;
+                width: 360px;
+            }
+
+            &__info {
+                width: 360px;
+            }
+
+            &__info-advantages-list {
+                @include font(400, 16px, 26px);
+            }
+
+            &__photo-img {
+                display: none;
+            }
+
+            &__info-subtitle {
+                @include font(400, 16px, 22px);
+                width: 360px;
+                height: 88px;
+                margin-top: 26px;
+                margin-bottom: 22px;
+            }
+
+            &__info-advantages-list {
+                margin-bottom: 34px;
+            }
+        }
+
+        .advantages {
+            &__content {
+                width: 360px;
+            }
+
+            &__list-item-title {
+                @include font(500, 18px, 22px);
+            }
+
+            &__list-item-description {
+                @include font(400, 16px, 20px);
+            }
+
+            &__list-item {
+                margin-bottom: 36px;
+            }
+
+            &__list-item-content {
+                width: 264px;
+            }
+        }
+
+        .services {
+            &__content {
+                width: 360px;
+            }
+
+            &__title-content {
+                width: 360px;
+            }
+
+            &__list {
+                flex-direction: column;
+                gap: 24px;
+            }
+
+            &__list-item {
+                width: 360px;
+            }
+
+            &__list-item-img {
+                display: none;
+            }
+
+            &__list-item-title {
+                @include font(500, 20px, 26px);
+                margin: 24px 22px 16px 28px;
+                height: 26px;
+            }
+
+            &__list-item-subtitle {
+                @include font(400, 16px, 20px);
+                margin: 0 28px 18px 28px;
+            }
+
+            &__list-item-order {
+                margin: 0px 28px 24px 28px;
+            }
+
+            &__list-item-price {
+                @include font(500, 20px, 26px);
+            }
+
+            &__list-item-button {
+                @include font(500, 18px, 22px);
+                width: 126px;
+                height: 44px;
+                padding: 12px 28px;
+            }
+        }
+
+        .equipment {
+            &__content {
+                width: 360px;
+            }
+
+            &__title-content {
+                width: 360px;
+            }
+
+            &__list {
+                margin-bottom: 14px;
+            }
+
+            &__list-item {
+                width: 360px;
+                height: 84px;
+                padding: 16px 20px 16px 20px;
+            }
+            
+            &__list-item-title {
+                margin-bottom: 24px;
+            }
+
+            &__list-item-content {
+                flex-direction: column;
+            }
+
+            &__list-item-content-img {
+                width: 296px;
+                height: 210px;
+            }
+
+            &__list-item-name {
+                @include font(500, 16px, 18px);
+                width: 296px;
+            }
+
+            &__list-item-properties {
+                width: 292px;
+            }
+    
+            &__list-item-properties-title {
+                margin-top: 18px;
+            }
+    
+            //TODO: make height dinamically
+            &__list-item_open {
+                height: 524px;
+            }
+        }
+
+        .workflow {
+            &__content {
+                width: 360px;
+            }
+
+            &__title-content {
+                width: 360px;
+            }
+
+            &__steps-item {
+                width: 360px;
+            }
+
+            &__steps-item-logo {
+                margin: 0 36px 0 0;
+            }
+
+            &__steps-item-description {
+                width: 274px;
+            }
+
+            &__steps-divider {
+                margin: 16px 0 16px 12px;
+            }
+        }  
+    }
+
+    .footer {
+        &__content {
+            width: 362px;
+        }
+
+        &__description-area {
+            width: 360px;
+        }
+
+        &__description-area-text {
+            padding: 14px 0 24px 0;
+        }
+
+        &__contacts {
+            padding-bottom: 42px;
+        }
+
+        &__menu {
+            padding-bottom: 42px;
+        }
+    }
 }

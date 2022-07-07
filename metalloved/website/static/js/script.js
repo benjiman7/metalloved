@@ -11,7 +11,7 @@ if (iconMenu) {
 
 // Scroll on click
 const links = document.querySelectorAll(".header__navbar-list-link");
-//FIXME: forEach or map 
+//FIXME: добавить скролл до верха вместе с синей шапкой 
 links.forEach((link) => {
   link.addEventListener("click", () => {
     const item = document.getElementById(link.getAttribute("data-link"));

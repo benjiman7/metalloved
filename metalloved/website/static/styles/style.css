@@ -2186,6 +2186,7 @@ body {
     font-size: 34px;
     line-height: 44px;
     width: 334px;
+    padding-top: 42px;
   }
   .header__main-content-subtitle {
     font-weight: 400;
@@ -2415,7 +2416,7 @@ body {
     display: none;
   }
   .header__main-content-overlay {
-    height: 360px;
+    height: 260px;
     height: 442px;
   }
   .header__main-content-title {
@@ -2432,7 +2433,7 @@ body {
   }
   .header__card-item {
     width: 264px;
-    height: 170px;
+    height: 196px;
   }
   .header__card-icon {
     width: 50px;
@@ -2440,120 +2441,132 @@ body {
     margin-bottom: 10px;
   }
   .header__card-icon-img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
   .header__card-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    width: 260px;
-    padding-bottom: 14px;
+    width: 224px;
+    height: 42px;
+    padding: 6px 0px 10px 0px;
   }
   .header__card-subtitle {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
-    padding: 0px 0px 26px 0px;
-    width: 312px;
+    padding: 0px 0px 20px 0px;
+    width: 224px;
   }
   .header__card-list {
-    margin-top: -64px;
+    margin-top: -80px;
+  }
+  .main .container-about {
+    margin: 84px auto;
   }
   .main .about__content {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 360px;
+    width: 264px;
   }
   .main .about__info {
-    width: 360px;
+    width: 264px;
   }
   .main .about__info-advantages-list {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
-  }
-  .main .about__photo-img {
-    display: none;
   }
   .main .about__info-subtitle {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
-    width: 360px;
-    height: 88px;
-    margin-top: 26px;
-    margin-bottom: 22px;
+    width: 264px;
+    height: 110px;
+    margin-top: 24px;
+    margin-bottom: 20px;
   }
-  .main .about__info-advantages-list {
-    margin-bottom: 34px;
+  .main .about__info-advantages-item {
+    gap: 8px;
+  }
+  .main .about__info-advantages-item-img {
+    width: 16px;
+    height: 16px;
+  }
+  .main .about__info-advantages-item-description {
+    width: 240px;
+  }
+  .main .about__info-call-us-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .main .about__info-call-us-phone {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
   }
   .main .advantages__content {
-    width: 360px;
+    width: 264px;
+  }
+  .main .advantages__list-item-content {
+    width: 178px;
   }
   .main .advantages__list-item-title {
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 22px;
   }
   .main .advantages__list-item-description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
   }
-  .main .advantages__list-item {
-    margin-bottom: 36px;
+  .main .advantages__list-item-border {
+    margin-right: 22px;
+    width: 64px;
+    height: 64px;
   }
-  .main .advantages__list-item-content {
-    width: 264px;
+  .main .advantages__list-item-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .main .container-services {
+    margin: 84px auto;
   }
   .main .services__content {
-    width: 360px;
+    width: 264px;
   }
   .main .services__title-content {
-    width: 360px;
-  }
-  .main .services__list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 24px;
+    width: 264px;
   }
   .main .services__list-item {
-    width: 360px;
-  }
-  .main .services__list-item-img {
-    display: none;
+    width: 264px;
   }
   .main .services__list-item-title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    margin: 24px 22px 16px 28px;
-    height: 26px;
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
   }
   .main .services__list-item-subtitle {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0 28px 18px 28px;
+    font-size: 14px;
+    line-height: 18px;
   }
   .main .services__list-item-order {
     margin: 0px 28px 24px 28px;
   }
   .main .services__list-item-price {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 22px;
   }
   .main .services__list-item-button {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    width: 126px;
-    height: 44px;
+    width: 110px;
+    height: 42px;
     padding: 12px 28px;
   }
   .main .equipment__content {

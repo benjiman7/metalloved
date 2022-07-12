@@ -2206,7 +2206,7 @@ body {
   }
   .header__card-item {
     width: 360px;
-    height: 222px;
+    height: 204px;
   }
   .header__card-icon {
     width: 60px;
@@ -2433,7 +2433,7 @@ body {
   }
   .header__card-item {
     width: 264px;
-    height: 196px;
+    height: 186px;
   }
   .header__card-icon {
     width: 50px;
@@ -2570,79 +2570,58 @@ body {
     padding: 12px 28px;
   }
   .main .equipment__content {
-    width: 360px;
+    width: 264px;
   }
   .main .equipment__title-content {
-    width: 360px;
-  }
-  .main .equipment__list {
-    margin-bottom: 14px;
+    width: 264px;
   }
   .main .equipment__list-item {
-    width: 360px;
-    height: 84px;
-    padding: 16px 20px 16px 20px;
-  }
-  .main .equipment__list-item-title {
-    margin-bottom: 24px;
-  }
-  .main .equipment__list-item-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    width: 264px;
+    height: 86px;
+    padding: 14px 16px 14px 16px;
   }
   .main .equipment__list-item-content-img {
-    width: 296px;
+    width: 224px;
     height: 210px;
   }
   .main .equipment__list-item-name {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
     width: 296px;
   }
   .main .equipment__list-item-properties {
-    width: 292px;
+    width: 224px;
   }
   .main .equipment__list-item-properties-title {
-    margin-top: 18px;
+    height: 36px;
   }
   .main .equipment__list-item_open {
-    height: 524px;
+    height: 568px;
   }
   .main .workflow__content {
-    width: 360px;
+    width: 264px;
   }
   .main .workflow__title-content {
-    width: 360px;
+    width: 264px;
   }
   .main .workflow__steps-item {
-    width: 360px;
+    width: 264px;
   }
   .main .workflow__steps-item-logo {
-    margin: 0 36px 0 0;
+    margin: 0 22px 0 0;
   }
   .main .workflow__steps-item-description {
-    width: 274px;
+    width: 192px;
   }
   .main .workflow__steps-divider {
-    margin: 16px 0 16px 12px;
+    margin: 14px 0 14px 12px;
   }
   .footer__content {
-    width: 362px;
+    width: 264px;
   }
   .footer__description-area {
-    width: 360px;
-  }
-  .footer__description-area-text {
-    padding: 14px 0 24px 0;
-  }
-  .footer__contacts {
-    padding-bottom: 42px;
-  }
-  .footer__menu {
-    padding-bottom: 42px;
+    width: 264px;
   }
 }
 /*# sourceMappingURL=style.css.map */

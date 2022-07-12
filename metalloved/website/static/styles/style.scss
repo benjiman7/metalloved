@@ -1651,7 +1651,7 @@
 
         &__card-item {
             width: 360px;
-            height: 222px;
+            height: 204px;
         }
 
         &__card-icon {
@@ -1914,7 +1914,7 @@
 
         &__card-item {
             width: 264px;
-            height: 196px;
+            height: 186px;
         }
 
         &__card-icon {
@@ -2067,101 +2067,76 @@
 
         .equipment {
             &__content {
-                width: 360px;
+                width: 264px;
             }
 
             &__title-content {
-                width: 360px;
-            }
-
-            &__list {
-                margin-bottom: 14px;
+                width: 264px;
             }
 
             &__list-item {
-                width: 360px;
-                height: 84px;
-                padding: 16px 20px 16px 20px;
+                width: 264px;
+                height: 86px;
+                padding: 14px 16px 14px 16px;
             }
             
-            &__list-item-title {
-                margin-bottom: 24px;
-            }
-
-            &__list-item-content {
-                flex-direction: column;
-            }
-
             &__list-item-content-img {
-                width: 296px;
+                width: 224px;
                 height: 210px;
             }
 
             &__list-item-name {
-                @include font(500, 16px, 18px);
+                @include font(500, 14px, 18px);
                 width: 296px;
             }
 
             &__list-item-properties {
-                width: 292px;
+                width: 224px;
             }
     
             &__list-item-properties-title {
-                margin-top: 18px;
+                height: 36px;
             }
     
-            //TODO: make height dinamically
             &__list-item_open {
-                height: 524px;
+                height: 568px;
             }
         }
 
         .workflow {
             &__content {
-                width: 360px;
+                width: 264px;
             }
 
             &__title-content {
-                width: 360px;
+                width: 264px;
             }
 
             &__steps-item {
-                width: 360px;
+                width: 264px;
             }
 
             &__steps-item-logo {
-                margin: 0 36px 0 0;
+                margin: 0 22px 0 0;
             }
 
             &__steps-item-description {
-                width: 274px;
+                width: 192px;
             }
 
             &__steps-divider {
-                margin: 16px 0 16px 12px;
+                margin: 14px 0 14px 12px;
             }
         }  
     }
 
     .footer {
         &__content {
-            width: 362px;
+            width: 264px;
         }
 
         &__description-area {
-            width: 360px;
-        }
-
-        &__description-area-text {
-            padding: 14px 0 24px 0;
-        }
-
-        &__contacts {
-            padding-bottom: 42px;
-        }
-
-        &__menu {
-            padding-bottom: 42px;
+            width: 264px;
         }
     }
 }

@@ -178,7 +178,7 @@ body {
 .header__navbar-list {
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,7 +188,7 @@ body {
 .header__navbar-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,7 +242,7 @@ body {
 .header__main-content-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 73px;
+  line-height: 72px;
   color: #FFFFFF;
   padding-top: 64px;
   padding-bottom: 12px;
@@ -264,7 +264,7 @@ body {
 .header__main-content-button {
   font-weight: 500;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,7 +318,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 360px;
-  height: 325px;
   -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
   background-color: #FFFFFF;
@@ -353,10 +352,10 @@ body {
 .header__card-title {
   font-weight: 500;
   font-size: 24px;
-  line-height: 31px;
+  line-height: 30px;
   color: #333333;
   text-align: center;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .header__card-subtitle {
@@ -486,7 +485,7 @@ body {
 .main .about__info-call-us-title {
   font-weight: 500;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   color: #333333;
   margin-bottom: 4px;
 }
@@ -494,7 +493,7 @@ body {
 .main .about__info-call-us-phone {
   font-weight: 600;
   font-size: 24px;
-  line-height: 31px;
+  line-height: 30px;
   color: #4B93FF;
 }
 
@@ -601,7 +600,7 @@ body {
 .main .advantages__list-item-title {
   font-weight: 500;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   color: #333333;
   padding-bottom: 8px;
 }
@@ -699,7 +698,7 @@ body {
 .main .services__list-item-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 22px;
   margin: 24px 26px 16px 32px;
   color: #333333;
   height: 46px;
@@ -727,14 +726,14 @@ body {
 .main .services__list-item-price {
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 22px;
   margin-right: auto;
 }
 
 .main .services__list-item-button {
   font-weight: 500;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -744,8 +743,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 134px;
-  height: 47px;
+  width: 136px;
+  height: 48px;
   border: 2px solid #4B93FF;
   padding: 12px 28px;
   -webkit-box-sizing: border-box;
@@ -896,7 +895,7 @@ body {
 .main .equipment__list-item-properties-content {
   font-weight: 400;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   color: #666666;
 }
 
@@ -1019,7 +1018,7 @@ body {
 .main .workflow__steps-item-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   color: #666666;
   text-align: center;
   height: 42px;
@@ -1087,7 +1086,7 @@ body {
 .main .order__info-list-item-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 22px;
   color: #333333;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1101,7 +1100,7 @@ body {
 .main .order__info-list-item-content {
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 20px;
   color: #333333;
   padding-top: 10px;
   width: 384px;
@@ -1109,13 +1108,13 @@ body {
 
 .main .order .email-font {
   font-weight: 400;
-  font-size: 19px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .main .order__info-list-item-text-map {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
   color: #888692;
   -webkit-text-decoration-line: underline;
@@ -1125,7 +1124,7 @@ body {
 
 .main .order__info-list-item-text {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
   color: #888692;
   padding-top: 6px;
@@ -1156,7 +1155,7 @@ body {
 .main .order__form-input {
   font-weight: 400;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   margin-bottom: 16px;
 }
 
@@ -1188,7 +1187,7 @@ body {
 
 .main .order input {
   width: 432px;
-  height: 49px;
+  height: 48px;
   border: 1px solid #999999;
   border-radius: 5px;
   padding-left: 16px;
@@ -1206,7 +1205,7 @@ body {
 .main .order__form-button {
   font-weight: 500;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1240,7 +1239,6 @@ body {
 .main .container-form {
   margin-top: -36px;
   width: 540px;
-  height: 505px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
@@ -1295,7 +1293,7 @@ body {
 .footer__description-area-address-content {
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   color: #FFFFFF;
   padding-bottom: 64px;
 }
@@ -1314,7 +1312,7 @@ body {
 .footer__contacts-title-item {
   font-weight: 600;
   font-size: 22px;
-  line-height: 29px;
+  line-height: 28px;
   color: #FFFFFF;
   padding-top: 56px;
 }
@@ -1337,7 +1335,7 @@ body {
 .footer__phone-content {
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   display: block;
   color: #FFFFFF;
   padding-bottom: 26px;
@@ -1353,7 +1351,7 @@ body {
 .footer__email-content {
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 22px;
   color: #FFFFFF;
 }
 
@@ -1371,7 +1369,7 @@ body {
 .footer__menu-title-item {
   font-weight: 600;
   font-size: 22px;
-  line-height: 29px;
+  line-height: 28px;
   color: #FFFFFF;
   padding-top: 56px;
 }
@@ -1391,7 +1389,7 @@ body {
 .footer__menu-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   color: #999999;
 }
 
@@ -1449,7 +1447,7 @@ body {
   .header__navbar-list {
     font-weight: 400;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 20px;
     gap: 14px;
   }
   .header__main-content-title {
@@ -1460,34 +1458,37 @@ body {
   }
   .header__main-content-subtitle {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 22px;
-    width: 310px;
+    width: 326px;
   }
   .header__main-content-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 20px;
     width: 170px;
     height: 46px;
     padding: 12px 22px;
   }
   .header__card-item {
     width: 264px;
-    height: 310px;
   }
   .header__card-icon {
-    width: 80px;
-    height: 80px;
+    width: 72px;
+    height: 72px;
     margin-top: 28px;
     margin-bottom: 24px;
+  }
+  .header__card-icon-img {
+    width: 36px;
+    height: 36px;
   }
   .header__card-title {
     font-weight: 500;
     font-size: 22px;
-    line-height: 29px;
+    line-height: 28px;
     width: 168px;
-    height: 74px;
+    height: 56px;
   }
   .header__card-subtitle {
     font-weight: 400;
@@ -1529,8 +1530,8 @@ body {
   }
   .main .services__list-item-title {
     font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 20px;
     margin: 24px 16px 12px 22px;
     height: 40px;
   }

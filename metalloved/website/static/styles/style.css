@@ -337,8 +337,8 @@ body {
   margin-top: 30px;
   margin-bottom: 26px;
   border-radius: 50%;
-  width: 96px;
-  height: 96px;
+  width: 90px;
+  height: 90px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.07);
@@ -355,7 +355,7 @@ body {
   line-height: 30px;
   color: #333333;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .header__card-subtitle {
@@ -364,7 +364,8 @@ body {
   line-height: 26px;
   color: #666666;
   text-align: center;
-  padding: 0px 42px 48px;
+  margin: 0px auto 48px;
+  width: 300px;
 }
 
 .main .container-about {
@@ -699,16 +700,16 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 22px;
-  margin: 24px 26px 16px 32px;
+  margin: 24px 28px 16px 28px;
   color: #333333;
   height: 46px;
 }
 
 .main .services__list-item-subtitle {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  margin: 0px 26px 20px 32px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px 28px 20px 28px;
   color: #666666;
   height: 54px;
 }
@@ -720,7 +721,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 26px 32px 32px;
+  margin: 0px 28px 28px 28px;
 }
 
 .main .services__list-item-price {
@@ -732,7 +733,7 @@ body {
 
 .main .services__list-item-button {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -743,8 +744,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 136px;
-  height: 48px;
+  width: 142px;
+  height: 50px;
   border: 2px solid #4B93FF;
   padding: 12px 28px;
   -webkit-box-sizing: border-box;
@@ -1485,7 +1486,7 @@ body {
   }
   .header__card-title {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
     width: 168px;
     height: 56px;
@@ -1494,7 +1495,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    padding: 0px 14px 38px;
+    margin: 0px auto 32px;
+    width: 240px;
   }
   .main .about__content {
     -webkit-box-pack: justify;
@@ -1532,29 +1534,29 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    margin: 24px 16px 12px 22px;
+    margin: 24px 16px 12px 16px;
     height: 40px;
   }
   .main .services__list-item-subtitle {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
-    margin: 0px 16px 24px 22px;
+    margin: 0px 16px 24px 16px;
   }
   .main .services__list-item-order {
-    margin: 0px 16px 28px 22px;
+    margin: 0px 16px 28px 16px;
   }
   .main .services__list-item-price {
     font-weight: 500;
     font-size: 17px;
-    line-height: 21px;
+    line-height: 20px;
   }
   .main .services__list-item-button {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 20px;
-    width: 102px;
-    height: 40px;
+    width: 112px;
+    height: 44px;
     padding: 12px 18px;
   }
   .main .equipment__content {
@@ -1597,7 +1599,8 @@ body {
     height: 50px;
   }
   .main .workflow__steps-item-description {
-    height: 63px;
+    width: 192px;
+    height: 62px;
   }
   .main .workflow__steps-divider {
     margin-bottom: 120px;
@@ -1766,7 +1769,6 @@ body {
   }
   .header__card-item {
     width: 198px;
-    height: 264px;
   }
   .header__card-icon {
     width: 60px;
@@ -1777,16 +1779,17 @@ body {
   .header__card-title {
     font-weight: 500;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 22px;
     width: 126px;
     height: 46px;
+    margin-bottom: 16px;
   }
   .header__card-subtitle {
     font-weight: 400;
-    font-size: 13px;
-    line-height: 17px;
-    padding: 16px 11px 28px;
-    width: 176px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px auto 28px;
+    width: 164px;
   }
   .header__card-list {
     margin-top: -150px;
@@ -1815,7 +1818,7 @@ body {
     font-weight: 600;
     color: #333333;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 38px;
   }
   .main .about__title-content .about__title-line {
     width: 60px;
@@ -1849,14 +1852,13 @@ body {
   }
   .main .about__info-call-us-title {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
-    margin-bottom: 4px;
   }
   .main .about__info-call-us-phone {
     font-weight: 600;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 22px;
   }
   .main .advantages__content {
     width: 648px;
@@ -1876,7 +1878,7 @@ body {
     font-weight: 600;
     color: #333333;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 38px;
   }
   .main .advantages__title-content .advantages__title-line {
     width: 60px;
@@ -1902,7 +1904,7 @@ body {
   .main .advantages__list-item-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 20px;
   }
   .main .advantages__list-item-description {
     font-weight: 400;
@@ -1928,7 +1930,7 @@ body {
     font-weight: 600;
     color: #333333;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 38px;
   }
   .main .services__title-content .services__title-line {
     width: 60px;
@@ -1946,12 +1948,12 @@ body {
   .main .services__list-item-title {
     font-weight: 500;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 22px;
     margin: 24px 22px 12px 26px;
   }
   .main .services__list-item-subtitle {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     margin: 0 22px 16px 26px;
   }
@@ -1961,12 +1963,12 @@ body {
   .main .services__list-item-price {
     font-weight: 500;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 22px;
   }
   .main .services__list-item-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 20px;
     width: 106px;
     height: 40px;
     padding: 12px 18px;
@@ -1990,7 +1992,7 @@ body {
     font-weight: 600;
     color: #333333;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 38px;
   }
   .main .equipment__title-content .equipment__title-line {
     width: 60px;
@@ -2060,7 +2062,7 @@ body {
     font-weight: 600;
     color: #333333;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 38px;
   }
   .main .workflow__title-content .workflow__title-line {
     width: 60px;
@@ -2096,6 +2098,7 @@ body {
   .main .workflow__steps-item-description {
     text-align: left;
     height: auto;
+    width: auto;
   }
   .main .workflow__steps-divider {
     -webkit-transform: rotate(90deg);
@@ -2207,7 +2210,6 @@ body {
   }
   .header__card-item {
     width: 360px;
-    height: 204px;
   }
   .header__card-icon {
     width: 60px;
@@ -2224,13 +2226,13 @@ body {
     font-size: 20px;
     line-height: 24px;
     width: 260px;
-    padding-bottom: 14px;
+    height: auto;
   }
   .header__card-subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    padding: 0px 0px 26px 0px;
+    margin: 0px auto 26px;
     width: 312px;
   }
   .header__card-list {

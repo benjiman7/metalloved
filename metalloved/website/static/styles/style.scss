@@ -348,13 +348,13 @@
         }
 
         &__list-item-title {
-            @include font(500, 18px, 22px);
+            @include font(500, 20px, 22px);
             color: $text-title;
             padding-bottom: 8px;
         }
 
         &__list-item-description {
-            @include font(400, 16px, 26px);
+            @include font(400, 18px, 26px);
             color: $main-text;
         }
     }
@@ -990,7 +990,16 @@
             }
 
             &__list-item-content {
-                width: 264px;
+                width: 278px;
+            }
+
+            &__list-item-title {
+                @include font(500, 18px, 22px);
+                padding-bottom: 6px;
+            }
+    
+            &__list-item-description {
+                @include font(400, 16px, 26px);
             }
         }
 
@@ -1732,7 +1741,7 @@
             }
 
             &__list-item-content {
-                width: 264px;
+                width: 274px;
             }
         }
 
